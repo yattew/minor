@@ -1,0 +1,90 @@
+{
+    "class": [
+        null,
+        {
+            "user classes": [
+                null,
+                null
+            ],
+            "functions": [
+                null,
+                {
+                    "named": [
+                        null,
+                        null
+                    ],
+                    "lambda": [
+                        null,
+                        null
+                    ]
+                }
+            ],
+            "inbuilt": [
+                null,
+                {
+                    "primitive": {
+                        "integer": [
+                            null,
+                            null
+                        ],
+                        "float": [
+                            null,
+                            null
+                        ],
+                        "string": [
+                            null,
+                            null
+                        ],
+                        "boolean": [
+                            null,
+                            null
+                        ]
+                    },
+                    "non-primitive": [
+                        null,
+                        {
+                            "mutable": [
+                                null,
+                                {
+                                    "dictionary": [
+                                        null,
+                                        null
+                                    ],
+                                    "set": [
+                                        null,
+                                        null
+                                    ],
+                                    "list": [
+                                        null,
+                                        null
+                                    ]
+                                }
+                            ],
+                            "immutable": [
+                                null,
+                                {
+                                    "tuple": [
+                                        null,
+                                        null
+                                    ],
+                                    "internal_primitive": [
+                                        null,
+                                        null
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "modules": [
+                null,
+                null
+            ]
+        }
+    ],
+    "info": [
+        null,
+        null
+    ]
+}
