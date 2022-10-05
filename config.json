@@ -1,5 +1,7 @@
 {
-    "env":"dev",
-    "tree_serialized":"tree.dat",
-    "tree":"tree.json"
+    "env": "dev",
+    "tree_serialized": "tree.dat",
+    "tree": "tree.json",
+    "host": "0.0.0.0",
+    "port": 80
 }
