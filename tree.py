@@ -1,5 +1,6 @@
 import pickle
 
+
 class Tree:
     def __init__(self, name=None):
         self.name = name
@@ -54,9 +55,15 @@ def load_tree(file):
         b = pickle.load(f)
         return (a,b)
 
-tree, nodes = build_tree("tree.json")
-save_tree(tree,nodes,"tree.dat")
-# tree,nodes = load_tree("tree.dat")
-# from pprint import pprint
-# pprint(tree)
-# pprint(nodes)
+
+
+if __name__ == "__main__":
+    from utils import *
+    config = get_config()
+    
+    tree, nodes = build_tree(config["tree"])
+    save_tree(tree,nodes,config["tree_serialized"])
+    # tree,nodes = load_tree("tree.dat")
+    # from pprint import pprint
+    # pprint(tree)
+    # pprint(nodes)
