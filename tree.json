@@ -1,4 +1,4 @@
-{
+    {
     "class": [
         null,
         {
@@ -22,7 +22,7 @@
             "inbuilt": [
                 null,
                 {
-                    "primitive": {
+                    "primitive": [null,{
                         "integer": [
                             null,
                             null
@@ -39,7 +39,7 @@
                             null,
                             null
                         ]
-                    },
+                    }],
                     "non-primitive": [
                         null,
                         {
