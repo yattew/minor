@@ -1,5 +1,6 @@
 import pickle
-
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parent
 
 class Tree:
     def __init__(self, name=None):
@@ -35,7 +36,7 @@ def build_tree(file):
     tree = None
     nodes = {}
     import json
-    with open(file, "r") as f:
+    with open(BASE_DIR/file, "r") as f:
         jsn_asDict = json.load(f)
         tree = Tree("class")
         tree.doc = jsn_asDict["class"][0]
@@ -45,12 +46,12 @@ def build_tree(file):
 
 
 def save_tree(tree, nodes, file):
-    with open(file, "wb") as f:
+    with open(BASE_DIR/file, "wb") as f:
         pickle.dump(tree, f, protocol=pickle.HIGHEST_PROTOCOL)
         pickle.dump(nodes, f, protocol=pickle.HIGHEST_PROTOCOL)
 
 def load_tree(file):
-    with open(file, "rb") as f:
+    with open(BASE_DIR/file, "rb") as f:
         a = pickle.load(f)
         b = pickle.load(f)
         return (a,b)

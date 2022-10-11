@@ -1,3 +1,4 @@
+
 const electron = require('electron');
 // Module to control application life.
 const app = electron.app;
@@ -6,19 +7,33 @@ const BrowserWindow = electron.BrowserWindow;
 
 const path = require('path');
 const url = require('url');
+var spawn = require("child_process").spawn;
+const child = spawn('python',['../../scripts/api.py'])
+// use child.stdout.setEncoding('utf8'); if you want text chunks
+child.stdout.on('data', (chunk) => {
+  console.log(chunk);
+});
+
+// since these are streams, you can pipe them elsewhere
+//child.stderr.pipe(dest);
+
+child.on('close', (code) => {
+  console.log(`child process exited with code ${code}`);
+});
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow;
 
 function createWindow() {
+ 
     // Create the browser window.
     mainWindow = new BrowserWindow({width: 1920, height: 1080});
     // and load the index.html of the app.
     mainWindow.loadURL('http://localhost:3000');
 
     // Open the DevTools.
-    mainWindow.webContents.openDevTools();
+    //mainWindow.webContents.openDevTools();
 
     // Emitted when the window is closed.
     mainWindow.on('closed', function () {
