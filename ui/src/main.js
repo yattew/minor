@@ -23,6 +23,11 @@ child.on('close', (code) => {
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
+const contextMenu = require('electron-context-menu');
+
+contextMenu({
+	showSaveImageAs: true
+});
 let mainWindow;
 
 function createWindow() {
@@ -31,6 +36,7 @@ function createWindow() {
     mainWindow = new BrowserWindow({width: 1920, height: 1080});
     // and load the index.html of the app.
     mainWindow.loadURL('http://localhost:3000');
+    mainWindow.removeMenu();
 
     // Open the DevTools.
     //mainWindow.webContents.openDevTools();
