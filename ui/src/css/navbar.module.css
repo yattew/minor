@@ -8,3 +8,14 @@
 .navContent > input{
     width: 50vw;
 }
+.navContent > div{
+    width: 20vw;
+}
+.leftContent{
+    display: flex;
+    justify-content: flex-start;
+}
+.rightContent{
+    display: flex;
+    justify-content: flex-end;
+}
