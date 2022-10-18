@@ -1,0 +1,10 @@
+.navContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    width: 100%;
+}
+.navContent > input{
+    width: 50vw;
+}
