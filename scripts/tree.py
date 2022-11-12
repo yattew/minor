@@ -66,19 +66,30 @@ def search_term(tree, nodes, term):
     tree_pt = query_obj(nodes, term)
     # read from actual document
     doc = tree_pt.doc
-    parents = tree_pt.parents
-    children = tree_pt.children
     return {
         "doc": doc,
-        "parents": parents,
-        "children": children,
-        "tree_pt": tree_pt
+        "parents": list(parents(tree,nodes,term).keys()),
+        "children": list(children(tree,nodes,term).keys()),
+        "related": list(siblings(tree,nodes,term).keys()),
     }
 
+def children(root,nodes,searchTerm):
+    print(nodes[searchTerm])
+    return nodes[searchTerm].children
 
+def parents(root,nodes,searchTerm):
+    return nodes[searchTerm].parents
 
+def siblings(root,nodes,searchTerm):
+    t= (nodes[searchTerm].parents).values()
+    t2={}
+    for i in t:
+        t2.update(i.children)
+    del t2[searchTerm]
+    return t2
+    
 if __name__ == "__main__":
-    from utils import *
+    from utils import get_config
     config = get_config()
     
     tree, nodes = build_tree(config["tree"])

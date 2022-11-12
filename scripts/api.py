@@ -10,8 +10,10 @@ tree, nodes = load_tree(config["tree_serialized"])
 
 @app.route("/query/<query>")
 def query(query):
+    print(nodes)
     result = search_term(tree, nodes, query)
-    return result["tree_pt"].name
+
+    return result
 
 
 if __name__ == "__main__":
