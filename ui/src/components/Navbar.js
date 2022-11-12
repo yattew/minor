@@ -1,4 +1,5 @@
 import styles from "../css/navbar.module.css";
+import Search from "./Search";
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -6,7 +7,7 @@ const Navbar = () => {
                 <div className={styles.leftContent}>
                     <div className="navbar-brand">Python-Help</div>
                 </div>
-                <input className="form-control" type="search" placeholder="Search" />
+                <Search/>
                 <div className={styles.rightContent}>
                     <button className="btn btn-primary">Help</button>
                 </div>

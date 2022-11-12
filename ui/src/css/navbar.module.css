@@ -5,12 +5,10 @@
     padding: 0 2rem;
     width: 100%;
 }
-.navContent > input{
+
+/* .navContent > div{
     width: 50vw;
-}
-.navContent > div{
-    width: 20vw;
-}
+} */
 .leftContent{
     display: flex;
     justify-content: flex-start;

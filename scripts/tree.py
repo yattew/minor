@@ -59,10 +59,16 @@ def load_tree(file):
 
 
 def query_obj(nodes, name: str):
-    return nodes[name]
+    return nodes.get(name,None)
 
 
 def search_term(tree, nodes, term):
+    words = term.split()
+    tree_pts = []
+    for i in words:
+        if i in nodes:
+            tree_pts.append(i);
+    return tuple(tree_pts)
     tree_pt = query_obj(nodes, term)
     # read from actual document
     doc = tree_pt.doc

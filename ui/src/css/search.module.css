@@ -1,0 +1,24 @@
+.searchContainer{
+    width:50vw;
+}
+.searchResultContainer {
+    position: absolute;
+    margin-top: 0.5rem;
+    /* padding: 0.5rem; */
+    width: 50vw;
+    /* height: 100px; */
+    max-height: 70vh;
+    overflow: auto;
+    /* background-color: whitesmoke; */
+}
+.searchResultContainer>div{
+    font-size: larger;
+    border-bottom: 2px gray solid;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 0.3rem 0;
+    margin: 0.3rem 0;
+}
+.searchResultContainer > div:hover{
+    background-color: rgb(186, 223, 255);
+}
