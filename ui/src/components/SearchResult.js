@@ -1,7 +1,14 @@
-const SearchResult = ({item})=>{
-    console.log("here",item);
+import { useNavigate } from "react-router-dom";
+
+const SearchResult = ({ item, clearSearch }) => {
+    const navigate = useNavigate();
+    console.log("here", item);
+    const handleClick = () => {
+        clearSearch();
+        navigate(`/result/${item}`);
+    }
     return (
-        <div>{item}</div>
+        <div onClick={handleClick}>{item}</div>
     )
 }
 

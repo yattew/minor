@@ -19,6 +19,15 @@ def query(query):
 
     return {"res":result}
 
+@app.route("/doc/<item>")
+@cross_origin()
+def doc(item):
+    doc_p = nodes[item].doc
+    doc = "halo frandz"
+    # with open(doc_p,"r") as f:
+    #     doc= f.read()
+    return {"doc":doc}
+
 
 if __name__ == "__main__":
     debug = False
