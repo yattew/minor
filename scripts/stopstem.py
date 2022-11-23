@@ -9,7 +9,6 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer        
 from nltk.tokenize import TweetTokenizer 
 def tokenize(sentence):
-    sentence="this is a balls"
     tokenizer = TweetTokenizer(preserve_case=False, strip_handles=True,
                                    reduce_len=True)
     sentence_tokens = tokenizer.tokenize(sentence)
