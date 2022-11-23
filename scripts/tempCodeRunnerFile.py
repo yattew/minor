@@ -1,1 +1,1 @@
-config = get_config()
+q
