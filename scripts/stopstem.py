@@ -37,5 +37,5 @@ def stem(clean_text):
 def tokenizeAndStem(sentence):
     clean_text = tokenize(sentence)
     asString,asArr = stem(clean_text)
-    return asString
-    return asArr
+    #return asString
+    return list(set(asArr))
