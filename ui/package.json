@@ -19,13 +19,16 @@
     "wait-on": "^6.0.1",
     "web-vitals": "^2.1.4"
   },
+  "include": [
+    "../scripts"
+],
   "main": "src/main.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "main": "concurrently -k \"cross-env BROWSER=none npm start\" \"wait-on http://localhost:3000 && electronmon .\""
+    "maiin": "concurrently -k \"cross-env BROWSER=none npm start\" \"wait-on http://localhost:3000 && electronmon .\""
   },
   "eslintConfig": {
     "extends": [

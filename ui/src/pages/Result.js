@@ -14,7 +14,7 @@ const ResultPage = () => {
             setDoc(doc);
         }
         fn();
-    }, []);
+    }, [item]);
     return (
         <div>
             docs should be here on the result page for  {doc}
