@@ -9,7 +9,8 @@ const path = require('path');
 const url = require('url');
 var spawn = require("child_process").spawn;
 const child = spawn('python',['../../scripts/api.py'])
-// use child.stdout.setEncoding('utf8'); if you want text chunks
+// use if you want text chunks
+child.stdout.setEncoding('utf8');
 child.stdout.on('data', (chunk) => {
   console.log(chunk);
 });
@@ -17,9 +18,9 @@ child.stdout.on('data', (chunk) => {
 // since these are streams, you can pipe them elsewhere
 //child.stderr.pipe(dest);
 
-child.on('close', (code) => {
-  console.log(`child process exited with code ${code}`);
-});
+// child.on('close', (code) => {
+//   console.log(`child process exited with code ${code}`);
+// });
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
