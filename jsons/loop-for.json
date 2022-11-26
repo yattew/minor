@@ -1,0 +1,62 @@
+{
+    "beginner": {
+        "videos": {
+            "Python Program to Print Natural Numbers Using While and For Loop in Hindi - Tutorial #22": "https://www.youtube.com/watch?v=EhgFXBXMDnM",
+            "How to print even numbers in the given range in Python":"https://www.youtube.com/watch?v=ERsW5Ww7Y6Q",
+            "Accessing List using for Loop in Python (Hindi)":"https://www.youtube.com/watch?v=exrZK1-beZM",
+            "Python Program to Print Multiplication Table of a Number ( User Input )":"https://www.youtube.com/watch?v=lVRp-tX4VRY",
+            "Python Program to Print Sum of n Odd Natural Numbers | 1+3+5+7+..+n Series Calculation in Python":"https://www.youtube.com/watch?v=YOrZipjFJ_4"
+        },
+        "reading": {
+            "Print the first 10 natural numbers using for loop":"https://www.tutorialgateway.org/python-program-to-print-first-10-natural-numbers/",
+            "Python program to print all the even numbers within the given range":"https://www.tutorialspoint.com/python-program-to-print-all-even-numbers-in-a-range",
+            "Python program to display numbers from a list using a for loop.":"https://www.geeksforgeeks.org/print-lists-in-python-4-different-ways/",
+            "Python program to print a multiplication table of a given number":"https://www.javatpoint.com/python-display-multiplication-table",
+            "Python program to calculate the sum of all the odd numbers within the given range":"https://www.tutorialgateway.org/python-program-to-calculate-sum-of-odd-numbers/"
+        },
+        "practice": {
+            "https://gknxt.com/python-loops-interview-questions/python-interview-questions-on-loops/": "https://gknxt.com/python-loops-interview-questions/python-interview-questions-on-loops/",
+            "https://gopract.com/Pages/IT/Python-For-loop-Question-Answers.aspx": "https://gopract.com/Pages/IT/Python-For-loop-Question-Answers.aspx",
+            "https://data-flair.training/blogs/top-python-interview-questions-answer/": "https://data-flair.training/blogs/top-python-interview-questions-answer/"
+        }
+    },
+    "intermediate": {
+        "videos": {
+            "Frequently Asked Python Program 20:Check String is Palindrome or Not": "https://www.youtube.com/watch?v=NCXrRuCthZY",
+            "Python Program to Check Armstrong Number": "https://www.youtube.com/watch?v=2_eAvw_rOKA",
+            "Python Program to Count Total Odd and Even Numbers in List - In Hindi": "https://www.youtube.com/watch?v=rEMfNI72690",
+            "Frequently Asked Python Program 4: Print Fibonacci Series": "https://www.youtube.com/watch?v=GqhDg8wWsk0",
+            "Python program to find all the prime numbers in the given range- by Mahesh Huddar": "https://www.youtube.com/watch?v=yUaqdaZ_QJk"
+        },
+        "reading": {
+            "Python program to check if a string is a palindrome or not": "https://www.geeksforgeeks.org/python-program-check-string-palindrome-not/",
+            "Python program to check if a given number is an Armstrong number": "https://www.tutorialgateway.org/python-program-armstrong-number/",
+            "Python program counts the number of even and odd numbers from a series of numbers": "https://www.w3resource.com/python-exercises/python-conditional-exercise-6.php",
+            "Python program to get the Fibonacci series between 0 to 50": "https://pythonguides.com/python-fibonacci-series/",
+            "Python program to display all numbers within a range except the prime numbers":"https://www.javatpoint.com/pyhton-print-all-prime-number-in-an-interval"
+        },
+        "practice": {
+            "https://www.naukri.com/learning/articles/for-loop-in-python-examples/#17": "https://www.naukri.com/learning/articles/for-loop-in-python-examples/#17",
+            "https://data-flair.training/blogs/top-python-interview-questions-answer/": "https://data-flair.training/blogs/top-python-interview-questions-answer/",
+            "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions"
+        }
+    },
+    "advanced": {
+        "videos": {
+            "Python Programs - Factorial Program Using for loop": "https://www.youtube.com/watch?v=MchEIaD87Uw",
+            "Python Programming - Calculate the Number of Digits and Letters in a String - Updated 2021": "https://www.youtube.com/watch?v=J9smfg-9Zps",
+            "Check the validity of a Password in Python": "https://www.youtube.com/watch?v=yIgpOGNHFsg",
+            "Python program to convert month name to a number of days": "https://www.youtube.com/watch?v=yCHXzDvyHsk"
+        },
+        "reading": {
+            "Python program to find the factorial of a given number": "https://www.thecrazyprogrammer.com/2017/04/python-program-find-factorial-number-using-loop.html",
+            "Python program that accepts a string and calculates the number of digits and letters": "https://www.w3resource.com/python-exercises/python-conditional-exercise-14.php",
+            "Python program to check the validity of password input by users": "https://www.geeksforgeeks.org/python-program-check-validity-password/",
+            "Python program to convert the month name to a number of days": "https://www.w3resource.com/python-exercises/python-conditional-exercise-33.php"
+        },
+        "practice": {
+            "https://intellipaat.com/blog/interview-question/python-interview-questions/": "https://intellipaat.com/blog/interview-question/python-interview-questions/",
+            "https://www.edureka.co/blog/interview-questions/python-interview-questions/": "https://www.edureka.co/blog/interview-questions/python-interview-questions/"
+        }
+    }
+}
