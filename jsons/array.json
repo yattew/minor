@@ -1,3 +1,60 @@
-{"beginner":{"videos":{" #26 Python Tutorial for Beginners": "https://www.youtube.com/watch?v=6a39OjkCN5I", "Creating One Dimensional Array using Numpy": "https://www.youtube.com/watch?v=r24j65MLuww", "Arrays in Python Programming": "https://www.youtube.com/watch?v=G1FTcXmc1hE", "#27 Python Tutorial for Beginners": "https://www.youtube.com/watch?v=9c9qhIcB3NA" },"reading":{"Peak Element": "http://www.tutorialspoint.com/find-peak-element-in-python", "Find the minimum and maximum element in an array": "www.geeksforgeeks.org/maximum-and-minimum-in-an-array/", "Write a program to reverse an array": "https://www.javatpoint.com/python-program-to-print-the-elements-of-an-array-in-reverse-order", "Write a program to sort the given array": "https://prepinsta.com/python-program/sort-of-array-in-ascending-and-descending-order/", "Subarray with given sum":"https://www.javatpoint.com/subarray-with-given-sum" },"practice":{"https://leetcode.com/problems/subarray-sum-equals-k/": "https://leetcode.com/problems/subarray-sum-equals-k/", "https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1": "https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1", "https://medium.com/javarevisited/20-array-coding-problems-and-questions-from-programming-interviews-869b475b9121": "https://medium.com/javarevisited/20-array-coding-problems-and-questions-from-programming-interviews-869b475b9121"}},
-"intermediate":{"videos":{"384 Shuffle an array": "https://www.youtube.com/watch?v=zEUSRGs-ldU", "Write a program to cyclically rotate an array by one| Love Babbar DSA Sheet": "https://www.youtube.com/watch?v=Bp1n8GPHQcA", "Find missing number in an array in python": "https://www.youtube.com/watch?v=KNHCY89fgKE"},"reading":{"Write a program to cyclically rotate an array by one":"https://www.tutorialspoint.com/python-program-to-cyclically-rotate-an-array-by-one", "Find missing number" : "https://thecleverprogrammer.com/2022/07/13/find-missing-number-using-python/", "Count pairs with given sum" : "https://www.techiedelight.com/find-pair-with-given-sum-array/", "Sort an array using Quicksort Algorithm": "https://www.geeksforgeeks.org/python-program-for-quicksort/#:~:text=The%20key%20process%20in%20quickSort,greater%20than%20x", "Find duplicates in an array": "https://www.javatpoint.com/python-program-to-print-the-duplicate-elements-of-an-array"},"practice":{"https://www.interviewbit.com/array-interview-questions/" : "https://www.interviewbit.com/array-interview-questions/", "https://www.w3resource.com/python-exercises/array/": "https://www.w3resource.com/python-exercises/array/", "https://www.techiedelight.com/huge-collection-of-array-interview-questions/": "https://www.techiedelight.com/huge-collection-of-array-interview-questions/"}},
-"advanced":{"videos":{"Arrays in python| Python for beginners": "https://www.youtube.com/watch?v=phRshQSU-xA", "Advanced indexing Operations in Numpy Arrays": "https://www.youtube.com/watch?v=2WTDrSkQBng","Arrays in python: Array Advance Game":"https://www.youtube.com/watch?v=r7EzxgrYfNg" },"reading":{"Maximum Index": "https://thispointer.com/find-max-value-its-index-in-numpy-array-numpy-amax/", " Max sum path in two arrays": "https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/", "Find missing and repeating": "https://www.codesdope.com/blog/article/repeat-and-missing-number-array/", "Stock buy and sell Problem": "https://www.javatpoint.com/python-program-to-calculate-the-best-time-to-buy-and-sell-stock", "Pair with the given sum in a sorted array": "https://www.codingninjas.com/codestudio/problem-details/find-pair-sum-in-rotated-and-sorted-array_985350"},"practice":{"https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/": "https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/", "https://javarevisited.blogspot.com/2015/06/top-20-array-interview-questions-and-answers.html": "https://javarevisited.blogspot.com/2015/06/top-20-array-interview-questions-and-answers.html", "https://igotanoffer.com/blogs/tech/array-interview-questions#hard": "https://igotanoffer.com/blogs/tech/array-interview-questions#hard"}}}
+{
+    "beginner": {
+        "videos": {
+            " #26 Python Tutorial for Beginners": "https://www.youtube.com/watch?v=6a39OjkCN5I",
+            "Creating One Dimensional Array using Numpy": "https://www.youtube.com/watch?v=r24j65MLuww",
+            "Arrays in Python Programming": "https://www.youtube.com/watch?v=G1FTcXmc1hE",
+            "#27 Python Tutorial for Beginners": "https://www.youtube.com/watch?v=9c9qhIcB3NA"
+        },
+        "reading": {
+            "Peak Element": "http://www.tutorialspoint.com/find-peak-element-in-python",
+            "Find the minimum and maximum element in an array": "www.geeksforgeeks.org/maximum-and-minimum-in-an-array/",
+            "Write a program to reverse an array": "https://www.javatpoint.com/python-program-to-print-the-elements-of-an-array-in-reverse-order",
+            "Write a program to sort the given array": "https://prepinsta.com/python-program/sort-of-array-in-ascending-and-descending-order/",
+            "Subarray with given sum": "https://www.javatpoint.com/subarray-with-given-sum"
+        },
+        "practice": {
+            "https://leetcode.com/problems/subarray-sum-equals-k/": "https://leetcode.com/problems/subarray-sum-equals-k/",
+            "https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1": "https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1",
+            "https://medium.com/javarevisited/20-array-coding-problems-and-questions-from-programming-interviews-869b475b9121": "https://medium.com/javarevisited/20-array-coding-problems-and-questions-from-programming-interviews-869b475b9121"
+        }
+    },
+    "intermediate": {
+        "videos": {
+            "384 Shuffle an array": "https://www.youtube.com/watch?v=zEUSRGs-ldU",
+            "Write a program to cyclically rotate an array by one| Love Babbar DSA Sheet": "https://www.youtube.com/watch?v=Bp1n8GPHQcA",
+            "Find missing number in an array in python": "https://www.youtube.com/watch?v=KNHCY89fgKE"
+        },
+        "reading": {
+            "Write a program to cyclically rotate an array by one": "https://www.tutorialspoint.com/python-program-to-cyclically-rotate-an-array-by-one",
+            "Find missing number": "https://thecleverprogrammer.com/2022/07/13/find-missing-number-using-python/",
+            "Count pairs with given sum": "https://www.techiedelight.com/find-pair-with-given-sum-array/",
+            "Sort an array using Quicksort Algorithm": "https://www.geeksforgeeks.org/python-program-for-quicksort/#:~:text=The%20key%20process%20in%20quickSort,greater%20than%20x",
+            "Find duplicates in an array": "https://www.javatpoint.com/python-program-to-print-the-duplicate-elements-of-an-array"
+        },
+        "practice": {
+            "https://www.interviewbit.com/array-interview-questions/": "https://www.interviewbit.com/array-interview-questions/",
+            "https://www.w3resource.com/python-exercises/array/": "https://www.w3resource.com/python-exercises/array/",
+            "https://www.techiedelight.com/huge-collection-of-array-interview-questions/": "https://www.techiedelight.com/huge-collection-of-array-interview-questions/"
+        }
+    },
+    "advanced": {
+        "videos": {
+            "Arrays in python| Python for beginners": "https://www.youtube.com/watch?v=phRshQSU-xA",
+            "Advanced indexing Operations in Numpy Arrays": "https://www.youtube.com/watch?v=2WTDrSkQBng",
+            "Arrays in python: Array Advance Game": "https://www.youtube.com/watch?v=r7EzxgrYfNg"
+        },
+        "reading": {
+            "Maximum Index": "https://thispointer.com/find-max-value-its-index-in-numpy-array-numpy-amax/",
+            " Max sum path in two arrays": "https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "Find missing and repeating": "https://www.codesdope.com/blog/article/repeat-and-missing-number-array/",
+            "Stock buy and sell Problem": "https://www.javatpoint.com/python-program-to-calculate-the-best-time-to-buy-and-sell-stock",
+            "Pair with the given sum in a sorted array": "https://www.codingninjas.com/codestudio/problem-details/find-pair-sum-in-rotated-and-sorted-array_985350"
+        },
+        "practice": {
+            "https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/": "https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/",
+            "https://javarevisited.blogspot.com/2015/06/top-20-array-interview-questions-and-answers.html": "https://javarevisited.blogspot.com/2015/06/top-20-array-interview-questions-and-answers.html",
+            "https://igotanoffer.com/blogs/tech/array-interview-questions#hard": "https://igotanoffer.com/blogs/tech/array-interview-questions#hard"
+        }
+    }
+}

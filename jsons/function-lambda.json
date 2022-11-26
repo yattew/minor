@@ -1,3 +1,70 @@
-{"beginner":{"videos":{" Anonymous/Lambda Functions In Python | Python Tutorials For Absolute B…": "https://www.youtube.com/watch?v=EFjf3cx1N7o", " Lambda Expressions & Anonymous Functions || Python Tutorial || Learn P…": "https://www.youtube.com/watch?v=25ovCm9jKfA", "#42 Python Tutorial for Beginners | Anonymous Functions | Lambda" :"https://www.youtube.com/watch?v=hYzwCsKGRrg", "Python 3 Programming Tutorial | #1 Introduction of Python Lambda and Anonymous Function": "https://www.youtube.com/watch?v=HBR6wqXj2iY&list=PLH6mU1kedUy84TsNa1654qkHjIeZ_wllA", "Lambda Expression : Python tutorial 150": "https://www.youtube.com/watch?v=4m0_xiqebKA", "Python: Lambda, Map, Filter, Reduce Functions": "https://www.youtube.com/watch?v=cKlnR-CB3tk"},"reading":{" Python Lambda": "https://www.w3schools.com/python/python_lambda.asp", "Python Lambda Functions": "https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/", "Python Lambda/Anonymous Functions ": "https://www.programiz.com/python-programming/anonymous-function", "Lambda Functions with Practical Examples in Python": "https://towardsdatascience.com/lambda-functions-with-practical-examples-in-python-45934f3653a8", "Lambda and filter in Python Examples": "https://www.geeksforgeeks.org/lambda-filter-python-examples/"},"practice":{"https://www.geeksforgeeks.org/lambda-filter-python-examples/":"https://www.geeksforgeeks.org/lambda-filter-python-examples/", "https://www.geeksforgeeks.org/lambda-filter-python-examples/":"https://www.geeksforgeeks.org/lambda-filter-python-examples/", "https://www.geeksforgeeks.org/lambda-filter-python-examples/":"https://www.geeksforgeeks.org/lambda-filter-python-examples/", "https://www.geeksforgeeks.org/python-lambda/": "https://www.geeksforgeeks.org/python-lambda/"}},
-"intermediate":{"videos":{"Intermediate Python Tutorial #5 - Lambda Functions":"https://www.youtube.com/watch?v=BcbVe1r2CYc", "Lambda Function in Python - In Hindi": "https://www.youtube.com/watch?v=A7NTBeULd3M", "Python Intermediate: Lambda Functions": "https://www.youtube.com/watch?v=hre6pzpqof8", "#3: Python lambda (anonymous) Functions | Python Best Practices": "https://www.youtube.com/watch?v=dX6lWSp7pP4", "ANONYMOUS FUNCTIONS (LAMBDA) - PYTHON PROGRAMMING": "https://www.youtube.com/watch?v=CYbMaudWGOM", "Lambda Functions in Python | Python Tutorial #37": "https://www.youtube.com/watch?v=SMYQn1MSsO4"},"reading":{"Python Lambda Functions":"https://www.javatpoint.com/python-lambda-functions", "Lambda Functions": "https://www.techwithtim.net/tutorials/python-programming/intermediate-python-tutorials/lambda-functions/", "How to Use Python Lambda Functions": "https://realpython.com/python-lambda/", "Lambda Function in Python – Example Syntax": "https://www.freecodecamp.org/news/lambda-function-in-python-example-syntax/", "Tutorial: Lambda Functions in Python": "https://www.dataquest.io/blog/tutorial-lambda-functions-in-python/"},"practice":{"https://inst.eecs.berkeley.edu/~cs61a/su15/practice/lambdas.html":"https://inst.eecs.berkeley.edu/~cs61a/su15/practice/lambdas.html","https://www.guru99.com/python-lambda-function.html":"https://www.guru99.com/python-lambda-function.html", "https://intellipaat.com/blog/tutorial/python-tutorial/python-lambda-function/":"https://intellipaat.com/blog/tutorial/python-tutorial/python-lambda-function/"}},
-"advanced":{"videos":{"Lambda in Python - Advanced Python 08 - Programming Tutorial - Map Filter Reduce": "https://www.youtube.com/watch?v=D2TJ9wvSP94", "Python Lambda Function | Anonymous Function In Python | Python Tutorial | Edureka": "https://www.youtube.com/watch?v=RQRCWDK9UkA", "[Hindi] Lambda functions in python in Hindi | Advanced python in Hindi": "https://www.youtube.com/watch?v=EZcLZfGXDQY", "Lambda Expressions - Python Tips and Tricks #5":"https://www.youtube.com/watch?v=p_PpR3nc9uM", "[Language skills Python] Exercise Lambda Expressions - Advanced [Tutorial]": "https://www.youtube.com/watch?v=6qxag83MRTw", "Python Lambda | Advanced Python | Tutorial 18": "https://www.youtube.com/watch?v=iMOIGsNHQjM"},"reading":{"Lambda Operator, filter, reduce and map":"https://python-course.eu/advanced-python/lambda-filter-reduce-map.php", "How to Use Python Lambda Functions? 6 Comprehensive Aspects": "https://hevodata.com/learn/python-lambda/", "Lambda Functions - Advanced Python 08": "https://www.python-engineer.com/courses/advancedpython/08-lambda/", "Python Lambda Expressions": "https://www.pythontutorial.net/python-basics/python-lambda-expressions/", "Building Lambda functions with Python": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-python.html", "Advanced Functional Programming in Python: lambda": "https://julien.danjou.info/python-functional-programming-lambda/"},"practice":{"https://climbtheladder.com/aws-lambda-python-interview-questions/":"https://climbtheladder.com/aws-lambda-python-interview-questions/", "https://mindmajix.com/aws-lambda-interview-questions": "https://mindmajix.com/aws-lambda-interview-questions", "https://flexiple.com/aws-lambda/interview-questions/": "https://flexiple.com/aws-lambda/interview-questions/"}}}
+{
+    "beginner": {
+        "videos": {
+            " Anonymous/Lambda Functions In Python | Python Tutorials For Absolute B…": "https://www.youtube.com/watch?v=EFjf3cx1N7o",
+            " Lambda Expressions & Anonymous Functions || Python Tutorial || Learn P…": "https://www.youtube.com/watch?v=25ovCm9jKfA",
+            "#42 Python Tutorial for Beginners | Anonymous Functions | Lambda": "https://www.youtube.com/watch?v=hYzwCsKGRrg",
+            "Python 3 Programming Tutorial | #1 Introduction of Python Lambda and Anonymous Function": "https://www.youtube.com/watch?v=HBR6wqXj2iY&list=PLH6mU1kedUy84TsNa1654qkHjIeZ_wllA",
+            "Lambda Expression : Python tutorial 150": "https://www.youtube.com/watch?v=4m0_xiqebKA",
+            "Python: Lambda, Map, Filter, Reduce Functions": "https://www.youtube.com/watch?v=cKlnR-CB3tk"
+        },
+        "reading": {
+            " Python Lambda": "https://www.w3schools.com/python/python_lambda.asp",
+            "Python Lambda Functions": "https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/",
+            "Python Lambda/Anonymous Functions ": "https://www.programiz.com/python-programming/anonymous-function",
+            "Lambda Functions with Practical Examples in Python": "https://towardsdatascience.com/lambda-functions-with-practical-examples-in-python-45934f3653a8",
+            "Lambda and filter in Python Examples": "https://www.geeksforgeeks.org/lambda-filter-python-examples/"
+        },
+        "practice": {
+            "https://www.w3resource.com/python-exercises/lambda/index.php": "https://www.w3resource.com/python-exercises/lambda/index.php",
+            "https://holypython.com/intermediate-python-exercises/exercise-11-python-lambda/": "https://holypython.com/intermediate-python-exercises/exercise-11-python-lambda/",
+            "https://realpython.com/quizzes/python-lambda/": "https://realpython.com/quizzes/python-lambda/",
+            "https://www.geeksforgeeks.org/python-lambda/": "https://www.geeksforgeeks.org/python-lambda/"
+        }
+    },
+    "intermediate": {
+        "videos": {
+            "Intermediate Python Tutorial #5 - Lambda Functions": "https://www.youtube.com/watch?v=BcbVe1r2CYc",
+            "Lambda Function in Python - In Hindi": "https://www.youtube.com/watch?v=A7NTBeULd3M",
+            "Python Intermediate: Lambda Functions": "https://www.youtube.com/watch?v=hre6pzpqof8",
+            "#3: Python lambda (anonymous) Functions | Python Best Practices": "https://www.youtube.com/watch?v=dX6lWSp7pP4",
+            "ANONYMOUS FUNCTIONS (LAMBDA) - PYTHON PROGRAMMING": "https://www.youtube.com/watch?v=CYbMaudWGOM",
+            "Lambda Functions in Python | Python Tutorial #37": "https://www.youtube.com/watch?v=SMYQn1MSsO4"
+        },
+        "reading": {
+            "Python Lambda Functions": "https://www.javatpoint.com/python-lambda-functions",
+            "Lambda Functions": "https://www.techwithtim.net/tutorials/python-programming/intermediate-python-tutorials/lambda-functions/",
+            "How to Use Python Lambda Functions": "https://realpython.com/python-lambda/",
+            "Lambda Function in Python -     Example Syntax": "https://www.freecodecamp.org/news/lambda-function-in-python-example-syntax/",
+            "Tutorial: Lambda Functions in Python": "https://www.dataquest.io/blog/tutorial-lambda-functions-in-python/"
+        },
+        "practice": {
+            "https://inst.eecs.berkeley.edu/~cs61a/su15/practice/lambdas.html": "https://inst.eecs.berkeley.edu/~cs61a/su15/practice/lambdas.html",
+            "https://www.guru99.com/python-lambda-function.html": "https://www.guru99.com/python-lambda-function.html",
+            "https://intellipaat.com/blog/tutorial/python-tutorial/python-lambda-function/": "https://intellipaat.com/blog/tutorial/python-tutorial/python-lambda-function/"
+        }
+    },
+    "advanced": {
+        "videos": {
+            "Lambda in Python - Advanced Python 08 - Programming Tutorial - Map Filter Reduce": "https://www.youtube.com/watch?v=D2TJ9wvSP94",
+            "Python Lambda Function | Anonymous Function In Python | Python Tutorial | Edureka": "https://www.youtube.com/watch?v=RQRCWDK9UkA",
+            "[Hindi] Lambda functions in python in Hindi | Advanced python in Hindi": "https://www.youtube.com/watch?v=EZcLZfGXDQY",
+            "Lambda Expressions - Python Tips and Tricks #5": "https://www.youtube.com/watch?v=p_PpR3nc9uM",
+            "[Language skills Python] Exercise Lambda Expressions - Advanced [Tutorial]": "https://www.youtube.com/watch?v=6qxag83MRTw",
+            "Python Lambda | Advanced Python | Tutorial 18": "https://www.youtube.com/watch?v=iMOIGsNHQjM"
+        },
+        "reading": {
+            "Lambda Operator, filter, reduce and map": "https://python-course.eu/advanced-python/lambda-filter-reduce-map.php",
+            "How to Use Python Lambda Functions? 6 Comprehensive Aspects": "https://hevodata.com/learn/python-lambda/",
+            "Lambda Functions - Advanced Python 08": "https://www.python-engineer.com/courses/advancedpython/08-lambda/",
+            "Python Lambda Expressions": "https://www.pythontutorial.net/python-basics/python-lambda-expressions/",
+            "Building Lambda functions with Python": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-python.html",
+            "Advanced Functional Programming in Python: lambda": "https://julien.danjou.info/python-functional-programming-lambda/"
+        },
+        "practice": {
+            "https://climbtheladder.com/aws-lambda-python-interview-questions/": "https://climbtheladder.com/aws-lambda-python-interview-questions/",
+            "https://mindmajix.com/aws-lambda-interview-questions": "https://mindmajix.com/aws-lambda-interview-questions",
+            "https://flexiple.com/aws-lambda/interview-questions/": "https://flexiple.com/aws-lambda/interview-questions/"
+        }
+    }
+}

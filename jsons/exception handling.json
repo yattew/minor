@@ -1,3 +1,70 @@
-{"beginner":{"videos":{"  #63 Python Tutorial for Beginners | Exception Handling" : "https://www.youtube.com/watch?v=6SPDvPK38tw", " Try Except Exception Handling In Python | Python Tutorials For Absolute B… ": "https://www.youtube.com/watch?v=A0hmk3wWTXI", ". Python Programming Tutorial | Exception Handling in Python | GeeksforGe…": "https://youtu.be/fCRB8ADbBSc", " Exception Handling and Builtin Exception in Python (Hindi)": "https://www.youtube.com/watch?v=VuGYWSs1Tjo", " Exceptions in Python | Python Programming Tutorial": "https://www.youtube.com/watch?v=M2brCmpEavE", "INTRODUCTION TO EXCEPTION HANDLING IN PYTHON ": "https://www.youtube.com/watch?v=SpaNj-ay0Ok"},"reading":{" Python Exception Handling - GeeksforGeeks":"https://www.geeksforgeeks.org/python-exception-handling/?ref=lbp", " exceptions.Exception": " exceptions.Exception", " finally keyword in Python - GeeksforGeeks": " finally keyword in Python - GeeksforGeeks"},"practice":{"https://www.360digitalgyan.com/python/interview-questions/exception-handling-in-python":"https://www.360digitalgyan.com/python/interview-questions/exception-handling-in-python", "https://www.upgrad.com/blog/exception-handling-interview-questions-answers/": "https://www.upgrad.com/blog/exception-handling-interview-questions-answers/", "https://climbtheladder.com/exception-handling-interview-questions/": "https://climbtheladder.com/exception-handling-interview-questions/", "https://mindmajix.com/python/exception-handling": "https://mindmajix.com/python/exception-handling"}},
-"intermediate":{"videos":{"Exceptions in Python || Python Tutorial || Learn Python Programming": "https://www.youtube.com/watch?v=nlCKrKGHSSk", "Exception Handling in Python in Hindi | Python Exception Handling": "https://www.youtube.com/watch?v=cTVXy7OMzAY", " Exception Handling in Python || Syntax Error vs Runtime Error": "https://www.youtube.com/watch?v=8d1-EDBdUDA&list=PLd3UqWTnYXOlBZgb711WywNSHPsJIedtU", "4. Exception Handling and Builtin Exception in Python (Hindi)": "https://www.youtube.com/watch?v=VuGYWSs1Tjo", " Exceptions in Python | Python Programming Tutorial": "https://www.youtube.com/watch?v=M2brCmpEavE", "6. INTRODUCTION TO EXCEPTION HANDLING IN PYTHON": "https://www.youtube.com/watch?v=SpaNj-ay0Ok"},"reading":{" Python Exception Handling Using try, except and finally statement":"https://www.programiz.com/python-programming/exception-handling", "Python Try Except - GeeksforGeeks": "https://www.geeksforgeeks.org/python-try-except/?ref=lbp", " NZEC error in Python - GeeksforGeeks": "https://www.geeksforgeeks.org/nzec-error-python/?ref=lbp", " User-defined Exceptions in Python with Examples - GeeksforGeeks": "https://www.geeksforgeeks.org/user-defined-exceptions-python-examples/?ref=lbp", "Exception Handling in Python": "https://www.tutorialsteacher.com/python/exception-handling-in-python"},"practice":{"https://www.sanfoundry.com/python-questions-answers-exception-handling/":"https://www.sanfoundry.com/python-questions-answers-exception-handling/", "https://www.360digitalgyan.com/python/quiz/exception-handling-in-python": "https://www.360digitalgyan.com/python/quiz/exception-handling-in-python", "https://dev.to/aatmaj/learning-python-basic-course-day-13-summary-of-the-week-and-stack-implementation-1b56": "https://dev.to/aatmaj/learning-python-basic-course-day-13-summary-of-the-week-and-stack-implementation-1b56"}},
-"advanced":{"videos":{". Exception Handling and Builtin Exception in Python (Hindi)": "https://www.youtube.com/watch?v=VuGYWSs1Tjo", " Python Tutorial: Using Try/Except Blocks for Error Handling": "https://www.youtube.com/watch?v=NIWwJbo-9_8"," Exception Handling in Python | CUET Computer Science": "https://www.youtube.com/watch?v=J3Ip15wlpeY", " Advanced Python- Exception Handling Detailed Explanation In Python": "https://www.youtube.com/watch?v=06HauGzxc9s", " Advanced Python Series- Custom Exception Handling In Python": "https://www.youtube.com/watch?v=UXV_o2W_UUA", " Exception handling tips in Python ⚠ Write better Python code part 7": "https://www.youtube.com/watch?v=ZsvftkbbrR0", " Exceptions in Python - Advanced Python 09 - Programming Tutorial": " Exceptions in Python - Advanced Python 09 - Programming Tutorial"},"reading":{" Day 24: Advanced Exception Handling and Raising Exceptions":" Day 24: Advanced Exception Handling and Raising Exceptions", " Python Exception Handling Using try, except and finally statement": "https://www.programiz.com/python-programming/exception-handling#:~:text=In%20Python%2C%20exceptions%20can%20be,written%20in%20the%20except%20clause", " 8. Exception handling — Advance Python Tutorials documentation": " 8. Exception handling — Advance Python Tutorials documentation", " Professional Error Handling With Python": "https://pythonguide.readthedocs.io/en/latest/python/exception.html"," 30. Errors and Exception Handling | Python Tutorial": "https://python-course.eu/python-tutorial/errors-and-exception-handling.php"},"practice":{"https://holypython.com/advanced-python-lessons/lesson-3-try-except/": "https://holypython.com/advanced-python-lessons/lesson-3-try-except/", "https://www.geeksforgeeks.org/output-of-python-programs-set-10-exception-handling/": "https://www.geeksforgeeks.org/output-of-python-programs-set-10-exception-handling/", "http://javainsimpleway.com/exception-basics-and-tricky-questions/": "http://javainsimpleway.com/exception-basics-and-tricky-questions/", "https://www.softwaretestinghelp.com/exception-handling-in-python/": "https://www.softwaretestinghelp.com/exception-handling-in-python/", "https://www.tutorialsteacher.com/question-answer/python/exception/": "https://www.tutorialsteacher.com/question-answer/python/exception/"}}}
+{
+    "beginner": {
+        "videos": {
+            "  #63 Python Tutorial for Beginners | Exception Handling": "https://www.youtube.com/watch?v=6SPDvPK38tw",
+            " Try Except Exception Handling In Python | Python Tutorials For Absolute B… ": "https://www.youtube.com/watch?v=A0hmk3wWTXI",
+            ". Python Programming Tutorial | Exception Handling in Python | GeeksforGe…": "https://youtu.be/fCRB8ADbBSc",
+            " Exception Handling and Builtin Exception in Python (Hindi)": "https://www.youtube.com/watch?v=VuGYWSs1Tjo",
+            " Exceptions in Python | Python Programming Tutorial": "https://www.youtube.com/watch?v=M2brCmpEavE",
+            "INTRODUCTION TO EXCEPTION HANDLING IN PYTHON ": "https://www.youtube.com/watch?v=SpaNj-ay0Ok"
+        },
+        "reading": {
+            " Python Exception Handling - GeeksforGeeks": "https://www.geeksforgeeks.org/python-exception-handling/?ref=lbp",
+            " exceptions.Exception": " exceptions.Exception",
+            " finally keyword in Python - GeeksforGeeks": " finally keyword in Python - GeeksforGeeks"
+        },
+        "practice": {
+            "https://www.360digitalgyan.com/python/interview-questions/exception-handling-in-python": "https://www.360digitalgyan.com/python/interview-questions/exception-handling-in-python",
+            "https://www.upgrad.com/blog/exception-handling-interview-questions-answers/": "https://www.upgrad.com/blog/exception-handling-interview-questions-answers/",
+            "https://climbtheladder.com/exception-handling-interview-questions/": "https://climbtheladder.com/exception-handling-interview-questions/",
+            "https://mindmajix.com/python/exception-handling": "https://mindmajix.com/python/exception-handling"
+        }
+    },
+    "intermediate": {
+        "videos": {
+            "Exceptions in Python || Python Tutorial || Learn Python Programming": "https://www.youtube.com/watch?v=nlCKrKGHSSk",
+            "Exception Handling in Python in Hindi | Python Exception Handling": "https://www.youtube.com/watch?v=cTVXy7OMzAY",
+            " Exception Handling in Python || Syntax Error vs Runtime Error": "https://www.youtube.com/watch?v=8d1-EDBdUDA&list=PLd3UqWTnYXOlBZgb711WywNSHPsJIedtU",
+            "4. Exception Handling and Builtin Exception in Python (Hindi)": "https://www.youtube.com/watch?v=VuGYWSs1Tjo",
+            " Exceptions in Python | Python Programming Tutorial": "https://www.youtube.com/watch?v=M2brCmpEavE",
+            "6. INTRODUCTION TO EXCEPTION HANDLING IN PYTHON": "https://www.youtube.com/watch?v=SpaNj-ay0Ok"
+        },
+        "reading": {
+            " Python Exception Handling Using try, except and finally statement": "https://www.programiz.com/python-programming/exception-handling",
+            "Python Try Except - GeeksforGeeks": "https://www.geeksforgeeks.org/python-try-except/?ref=lbp",
+            " NZEC error in Python - GeeksforGeeks": "https://www.geeksforgeeks.org/nzec-error-python/?ref=lbp",
+            " User-defined Exceptions in Python with Examples - GeeksforGeeks": "https://www.geeksforgeeks.org/user-defined-exceptions-python-examples/?ref=lbp",
+            "Exception Handling in Python": "https://www.tutorialsteacher.com/python/exception-handling-in-python"
+        },
+        "practice": {
+            "https://www.sanfoundry.com/python-questions-answers-exception-handling/": "https://www.sanfoundry.com/python-questions-answers-exception-handling/",
+            "https://www.360digitalgyan.com/python/quiz/exception-handling-in-python": "https://www.360digitalgyan.com/python/quiz/exception-handling-in-python",
+            "https://dev.to/aatmaj/learning-python-basic-course-day-13-summary-of-the-week-and-stack-implementation-1b56": "https://dev.to/aatmaj/learning-python-basic-course-day-13-summary-of-the-week-and-stack-implementation-1b56"
+        }
+    },
+    "advanced": {
+        "videos": {
+            ". Exception Handling and Builtin Exception in Python (Hindi)": "https://www.youtube.com/watch?v=VuGYWSs1Tjo",
+            " Python Tutorial: Using Try/Except Blocks for Error Handling": "https://www.youtube.com/watch?v=NIWwJbo-9_8",
+            " Exception Handling in Python | CUET Computer Science": "https://www.youtube.com/watch?v=J3Ip15wlpeY",
+            " Advanced Python- Exception Handling Detailed Explanation In Python": "https://www.youtube.com/watch?v=06HauGzxc9s",
+            " Advanced Python Series- Custom Exception Handling In Python": "https://www.youtube.com/watch?v=UXV_o2W_UUA",
+            " Exception handling tips in Python ⚠ Write better Python code part 7": "https://www.youtube.com/watch?v=ZsvftkbbrR0",
+            " Exceptions in Python - Advanced Python 09 - Programming Tutorial": " Exceptions in Python - Advanced Python 09 - Programming Tutorial"
+        },
+        "reading": {
+            " Day 24: Advanced Exception Handling and Raising Exceptions": " Day 24: Advanced Exception Handling and Raising Exceptions",
+            " Python Exception Handling Using try, except and finally statement": "https://www.programiz.com/python-programming/exception-handling#:~:text=In%20Python%2C%20exceptions%20can%20be,written%20in%20the%20except%20clause",
+            " 8. Exception handling — Advance Python Tutorials documentation": " 8. Exception handling — Advance Python Tutorials documentation",
+            " Professional Error Handling With Python": "https://pythonguide.readthedocs.io/en/latest/python/exception.html",
+            " 30. Errors and Exception Handling | Python Tutorial": "https://python-course.eu/python-tutorial/errors-and-exception-handling.php"
+        },
+        "practice": {
+            "https://holypython.com/advanced-python-lessons/lesson-3-try-except/": "https://holypython.com/advanced-python-lessons/lesson-3-try-except/",
+            "https://www.geeksforgeeks.org/output-of-python-programs-set-10-exception-handling/": "https://www.geeksforgeeks.org/output-of-python-programs-set-10-exception-handling/",
+            "http://javainsimpleway.com/exception-basics-and-tricky-questions/": "http://javainsimpleway.com/exception-basics-and-tricky-questions/",
+            "https://www.softwaretestinghelp.com/exception-handling-in-python/": "https://www.softwaretestinghelp.com/exception-handling-in-python/",
+            "https://www.tutorialsteacher.com/question-answer/python/exception/": "https://www.tutorialsteacher.com/question-answer/python/exception/"
+        }
+    }
+}

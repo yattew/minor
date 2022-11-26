@@ -1,3 +1,55 @@
-{"beginner":{"videos":{"Introduction to python dictionaries":"https://www.youtube.com/watch?v=daefaLgNkw0", "Creating a dictionary": "https://www.youtube.com/watch?v=6AooLxn0f3A", " Adding elements to a dictionary": "https://www.youtube.com/watch?v=_2frEcAXZuc", "Accessing elements of a dictionary": "https://www.youtube.com/watch?v=VEKe3fw-Xz4"},"reading":{"Introduction to python dictionaries": "https://www.geeksforgeeks.org/python-dictionary/", "Creating a dictionary-": "https://www.freecodecamp.org/news/create-a-dictionary-in-python", " Adding elements to a dictionary": "https://www.w3schools.com/python/gloss_python_dictionary_add_item.asp", ". Accessing elements of a dictionary": "https://www.w3schools.com/python/python_dictionaries_access.asp"},"practice":null},
-"intermediate":{"videos":{" Nested Dictionaries" : "https://www.youtube.com/watch?v=xD_URwm5Pug", " Accessing elements of a nested Dictionary": "https://www.youtube.com/watch?v=oQfNYqz8pLs", "Clear dictionary method": "https://www.youtube.com/watch?v=0ZRI4oBlNUc", " Copy dictionary method": "https://www.youtube.com/watch?v=FUD5v--2p8A", "Get dictionary method": "https://www.youtube.com/watch?v=umHTzNmrvIU", "Pop dictionary method": "https://www.youtube.com/watch?v=DNELByzCvWM"},"reading":{"Nested Dictionaries":"https://www.w3schools.com/python/python_dictionaries_access.asp", " Accessing elements of a nested dictionary":"https://www.programiz.com/python-programming/nested-dictionary", "Clear dictionary method": "https://www.geeksforgeeks.org/python-dictionary-clear/", " Copy dictionary method": "https://www.programiz.com/python-programming/methods/dictionary/copy", "Get dictionary method" : "https://www.w3schools.com/python/ref_dictionary_get.asp", "Pop dictionary method": "https://www.w3schools.com/python/ref_dictionary_pop.asp" },"practice":null}},
-"advanced":{"videos":{" Update dictionary method" : "https://www.youtube.com/watch?v=13YcsnDZw4U", "Nested dictionaries with for loops": "https://www.youtube.com/watch?v=ygRINYibL74", "Merge two dictionaries": "https://www.youtube.com/watch?v=YI2Tf1Kio1E", " Check if a key exists in a dictionary": "https://www.youtube.com/watch?v=hqLC9E-HDcI"},"reading":{" Update dictionary method":"https://www.programiz.com/python-programming/methods/dictionary/update", "Nested dictionaries with for loops": "https://www.geeksforgeeks.org/python-how-to-iterate", "Merge two dictionaries": "https://www.geeksforgeeks.org/python-merging-two-dictionaries/", "Check if a key exists in a dictionary":"https://www.educative.io/answers/how-to-check-if-a"},"practice":{"https://www.w3resource.com/python-exercises/dictionary/": "https://www.w3resource.com/python-exercises/dictionary/", "https://www.geeksforgeeks.org/python-dictionary-exercise/": "https://www.geeksforgeeks.org/python-dictionary-exercise/","https://pynative.com/python-dictionary-exercise-with-solutions/": "https://pynative.com/python-dictionary-exercise-with-solutions/"}}
+{
+    "beginner": {
+        "videos": {
+            "Introduction to python dictionaries": "https://www.youtube.com/watch?v=daefaLgNkw0",
+            "Creating a dictionary": "https://www.youtube.com/watch?v=6AooLxn0f3A",
+            " Adding elements to a dictionary": "https://www.youtube.com/watch?v=_2frEcAXZuc",
+            "Accessing elements of a dictionary": "https://www.youtube.com/watch?v=VEKe3fw-Xz4"
+        },
+        "reading": {
+            "Introduction to python dictionaries": "https://www.geeksforgeeks.org/python-dictionary/",
+            "Creating a dictionary-": "https://www.freecodecamp.org/news/create-a-dictionary-in-python",
+            " Adding elements to a dictionary": "https://www.w3schools.com/python/gloss_python_dictionary_add_item.asp",
+            ". Accessing elements of a dictionary": "https://www.w3schools.com/python/python_dictionaries_access.asp"
+        },
+        "practice": {}
+    },
+    "intermediate": {
+        "videos": {
+            " Nested Dictionaries": "https://www.youtube.com/watch?v=xD_URwm5Pug",
+            " Accessing elements of a nested Dictionary": "https://www.youtube.com/watch?v=oQfNYqz8pLs",
+            "Clear dictionary method": "https://www.youtube.com/watch?v=0ZRI4oBlNUc",
+            " Copy dictionary method": "https://www.youtube.com/watch?v=FUD5v--2p8A",
+            "Get dictionary method": "https://www.youtube.com/watch?v=umHTzNmrvIU",
+            "Pop dictionary method": "https://www.youtube.com/watch?v=DNELByzCvWM"
+        },
+        "reading": {
+            "Nested Dictionaries": "https://www.w3schools.com/python/python_dictionaries_access.asp",
+            " Accessing elements of a nested dictionary": "https://www.programiz.com/python-programming/nested-dictionary",
+            "Clear dictionary method": "https://www.geeksforgeeks.org/python-dictionary-clear/",
+            " Copy dictionary method": "https://www.programiz.com/python-programming/methods/dictionary/copy",
+            "Get dictionary method": "https://www.w3schools.com/python/ref_dictionary_get.asp",
+            "Pop dictionary method": "https://www.w3schools.com/python/ref_dictionary_pop.asp"
+        },
+        "practice": {}
+    },
+    "advanced": {
+        "videos": {
+            " Update dictionary method": "https://www.youtube.com/watch?v=13YcsnDZw4U",
+            "Nested dictionaries with for loops": "https://www.youtube.com/watch?v=ygRINYibL74",
+            "Merge two dictionaries": "https://www.youtube.com/watch?v=YI2Tf1Kio1E",
+            " Check if a key exists in a dictionary": "https://www.youtube.com/watch?v=hqLC9E-HDcI"
+        },
+        "reading": {
+            " Update dictionary method": "https://www.programiz.com/python-programming/methods/dictionary/update",
+            "Nested dictionaries with for loops": "https://www.geeksforgeeks.org/python-how-to-iterate",
+            "Merge two dictionaries": "https://www.geeksforgeeks.org/python-merging-two-dictionaries/",
+            "Check if a key exists in a dictionary": "https://www.educative.io/answers/how-to-check-if-a"
+        },
+        "practice": {
+            "https://www.w3resource.com/python-exercises/dictionary/": "https://www.w3resource.com/python-exercises/dictionary/",
+            "https://www.geeksforgeeks.org/python-dictionary-exercise/": "https://www.geeksforgeeks.org/python-dictionary-exercise/",
+            "https://pynative.com/python-dictionary-exercise-with-solutions/": "https://pynative.com/python-dictionary-exercise-with-solutions/"
+        }
+    }
+}
