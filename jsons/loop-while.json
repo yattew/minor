@@ -1,35 +1,43 @@
 {
     "beginner": {
         "videos": {
-            "": ""
+            "#20 Python Tutorial for Beginners | While Loop in Python": "https://www.youtube.com/watch?v=HZARImviDxg&list=RDCMUC59K-uG2A5ogwIrHw4bmlEg&start_radio=1"
         },
         "reading": {
-            "": ""
+            "Python While Loops": "https://www.w3schools.com/python/python_while_loops.asp"
         },
         "practice": {
-            "": ""
+            "https://holypython.com/intermediate-python-exercises/exercise-9-python-while-loop/": "https://holypython.com/intermediate-python-exercises/exercise-9-python-while-loop/"
         }
     },
     "intermediate": {
         "videos": {
-            "": ""
+            "Program to Print First 10 Natural Numbers - In Hindi": "https://www.youtube.com/watch?v=eZmJGx9EcpM",
+            "Python Program to Calculate and print sum of Even and Odd integers of first Natural n Numbers #15": "https://www.youtube.com/watch?v=eZmJGx9EcpM",
+            "Python Program to Reverse of a Number - In Hindi": "https://www.youtube.com/watch?v=5bM8JOHZH44",
+            "Frequently Asked Python Program 17: Multiply All Numbers in the List": "https://www.youtube.com/watch?v=Diyakr94s8A"
         },
         "reading": {
-            "": ""
+            "Python Program to Print First 10 Natural Numbers": "https://www.tutorialgateway.org/python-program-to-print-first-10-natural-numbers/",
+            "Python program to calculate the sum of first N even numbers": "https://studyfied.com/program/python-basic/calculate-sum-of-first-n-even-numbers/",
+            "Reverse a Number in Python using While Loop": "https://www.knowprogram.com/python/reverse-number-python-while-loop/",
+            "Program to find the product of the given number of consecutive elements": "https://www.geeksforgeeks.org/python-program-to-find-product-of-given-number-of-consecutive-elements/"
         },
         "practice": {
-            "": ""
+            "https://www.geeksforgeeks.org/sum-first-n-even-numbers/": "https://www.geeksforgeeks.org/sum-first-n-even-numbers/"
         }
     },
     "advanced": {
         "videos": {
-            "": ""
+            "Python Program to Check Armstrong Number": "https://www.youtube.com/watch?v=2_eAvw_rOKA",
+            "Python Program for Series Calculation 1*1 + 2*2 + 3*3 +..+n | Series Calculation Program in Python": "https://www.youtube.com/watch?v=Lu56Yf1axww"
         },
         "reading": {
-            "": ""
+            "Python Program to check Armstrong Number": "https://www.geeksforgeeks.org/python-program-to-check-armstrong-number/",
+            "Python Program to find the sum of a Series 1/1! + 2/2! + 3/3! + 4/4! +…….+ n/n!": "https://www.tutorialspoint.com/python-program-to-find-the-sum-of-a-series-1-1-plus-2-2-plus-3-3-plus-4-4-plus-plus-n-n"
         },
         "practice": {
-            "": ""
+            "https://www.scaler.com/topics/armstrong-number-in-python/": "https://www.scaler.com/topics/armstrong-number-in-python/"
         }
     }
 }

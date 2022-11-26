@@ -1,35 +1,66 @@
 {
     "beginner": {
         "videos": {
-            "": ""
+            "#45 Python Tutorial for Beginners | Modules": "https://www.youtube.com/watch?v=1RuMJ53CKds",
+            "Using Python External & Built In Modules | Python Tutorials For Absolute Beginners In Hindi": "https://www.youtube.com/watch?v=jA5pP2HNRNI",
+            "What are Modules in Python and How to Define Modules in Python with Examples": "https://www.youtube.com/watch?v=NJ_JTzpjKE8",
+            "What Are Python Modules? | Modules In Python | Python Tutorial For Beginners | Edureka": "https://www.youtube.com/watch?v=7GXaobCrBb4"
         },
         "reading": {
-            "": ""
+            "Python Modules": "https://www.geeksforgeeks.org/python-modules/#:~:text=A%20Python%20module%20is%20a,easier%20to%20understand%20and%20use",
+            "Python Modules Inbuilt": "https://docs.python.org/3/py-modindex.html",
+            "Create and Import Python Modules": "https://www.programiz.com/python-programming/modules",
+            "Python - Modules": "https://www.tutorialspoint.com/python/python_modules.htm",
+            "Python modules: Exercises, Practice, Solution": "https://www.w3resource.com/python-exercises/modules/index.php"
         },
         "practice": {
-            "": ""
+            "Python Exercises, Practice Questions and Solutions": "https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/",
+            "Python Modules": "https://pynative.com/python-modules/",
+            "Python modules test": "https://www.vskills.in/practice/python-modules-questions",
+            "Python built-in Modules": "https://www.w3resource.com/python-exercises/modules/index.php"
         }
     },
     "intermediate": {
         "videos": {
-            "": ""
+            "What is Modules in Python - Python Tutorials for Beginners": "https://www.youtube.com/watch?v=MDhCRplfY9E",
+            "Python Modules | Learn Coding": "https://www.youtube.com/watch?v=4yw79Rh-uJ8",
+            "Modules in Python Explained | Python Built in Modules | Python Tutorial for Beginners | Simplilearn": "https://www.youtube.com/watch?v=1oFneicTaII",
+            "Using Modules & Pip In Python | Python Tutorials For Absolute Beginners In Hindi #3": "https://www.youtube.com/watch?v=0SZodbWUsQU"
         },
         "reading": {
-            "": ""
+            "What is Modular Programming?": "https://www.javatpoint.com/python-modules",
+            "Python Modules and Packages - An Introduction": "https://realpython.com/python-modules-packages/",
+            "Python Modules": "https://www.digitalocean.com/community/tutorials/python-modules",
+            "Python Intermediate Series: Python Modules": "https://playground.robogarden.ca/es/blog/python-Intermediate-series-python-modules"
         },
         "practice": {
-            "": ""
+            "https://www.linuxtopia.org/online_books/programming_books/python_programming/python_ch28s07.html": "https://www.linuxtopia.org/online_books/programming_books/python_programming/python_ch28s07.html",
+            "https://www.udemy.com/course/exercises-python-standard-libraries/": "https://www.udemy.com/course/exercises-python-standard-libraries/",
+            "https://www.tutorialsteacher.com/question-answer/python/module/2": "https://www.tutorialsteacher.com/question-answer/python/module/2",
+            "https://realpython.com/quizzes/pybasics-modules-packages/": "https://realpython.com/quizzes/pybasics-modules-packages/",
+            "https://www.sanfoundry.com/python-questions-answers-modules/": "https://www.sanfoundry.com/python-questions-answers-modules/"
         }
     },
     "advanced": {
         "videos": {
-            "": ""
+            "Top 18 Most Useful Python Modules": "https://www.youtube.com/watch?v=Vi9Y9AL13Rc",
+            "Module in Python (Hindi)": "https://www.youtube.com/watch?v=biz8CDpIt9w",
+            "Top 10 Most Popular Python Libraries | Yaswanth | GeeksforGeeks": "https://www.youtube.com/watch?v=0IbkMZHOsC0",
+            "Working with Own Modules - Python Advanced Tutorial Series - 37": "https://www.youtube.com/watch?v=mPwTPn1_bI0"
         },
         "reading": {
-            "": ""
+            "Intermediate Programming with Python": "https://csiro-data-school.github.io/python-adv/25-modules/index.html",
+            "Advance Python Modules - How to Create & Import with dir Function": "https://data-flair.training/blogs/python-modules/",
+            "Python Advanced Modules Made Easy — Part 1": "https://medium.datadriveninvestor.com/python-advanced-modules-made-easy-part-1-181f4558a854",
+            "Top 5 Python Modules You Should Know in 2023": "https://www.upgrad.com/blog/python-modules-you-should-know/",
+            "Python : Advance built in modules": "https://medium.com/geekculture/python-advanced-built-in-modules-b08a48db543a"
         },
         "practice": {
-            "": ""
+            "Advanced Python Interview Questions": "https://www.fullstack.cafe/blog/advanced-python-interview-questions",
+            "Top Advanced Python Interview Questions and Answers": "https://www.interviewkickstart.com/interview-questions/advanced-python-interview-questions",
+            "Python Files, Modules, Packages: short important questions and answers": "https://www.brainkart.com/article/Python-Files,-Modules,-Packages--short-important-questions-and-answers_35984/",
+            "Python Quiz on Modules": "https://quizorbit.com/python-quiz-on-modules/",
+            "Python Modules and Packages QUIZ": "https://quizizz.com/admin/quiz/5f59cd24ff5af7001b2eaf98/python-modules-and-packages-xii"
         }
     }
 }

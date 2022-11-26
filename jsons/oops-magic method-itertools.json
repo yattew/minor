@@ -1,35 +1,67 @@
 {
     "beginner": {
         "videos": {
-            "": ""
+            "Hindi Magic/Dunder Methods In Python? | Object Oriented Programming Using Python Tutorial": "https://www.youtube.com/watch?v=QttxcLq-Pcs",
+            "Expert Python Tutorial #2 - Dunder/Magic Methods & The Python Data Model": "https://www.youtube.com/watch?v=z11P9sojHuM",
+            "Python OOP Tutorial 5: Special (Magic/Dunder) Methods": "https://www.youtube.com/watch?v=3ohzBxoFHAY",
+            "Magic Methods & Dunder - Advanced Python Tutorial #1": "https://www.youtube.com/watch?v=KSiRzuSx120",
+            "HINDI BIT-PY Beginner's Python Course | Part #36 | Magic Methods": "https://www.youtube.com/watch?v=KmniZ1qrLnQ"
         },
         "reading": {
-            "": ""
+            "Python - Magic or Dunder Methods": "https://www.tutorialsteacher.com/python/magic-methods-in-python",
+            "Dunder or magic methods in Python": "https://www.geeksforgeeks.org/dunder-magic-methods-python/",
+            "Explore the magic methods in Python": "https://www.analyticsvidhya.com/blog/2021/08/explore-the-magic-methods-in-python/",
+            "Magic Methods": "https://python-course.eu/oop/magic-methods.php",
+            "Itertools in Python3": "https://www.geeksforgeeks.org/itertools-in-python3/",
+            "Functions creating iterators for efficient looping¶": "https://docs.python.org/3/library/itertools.html"
         },
         "practice": {
-            "": ""
+            "Customize your Python class with Magic or Dunder methods": "https://www.geeksforgeeks.org/customize-your-python-class-with-magic-or-dunder-methods/",
+            "Python Itertools Tutorial - A Quick and Easy Guide": "https://data-flair.training/blogs/python-itertools-tutorial/"
         }
     },
     "intermediate": {
         "videos": {
-            "": ""
+            "Python Tutorial: Itertools Module - Iterator Functions for Efficient Looping": "https://www.youtube.com/watch?v=Qu3dThVy6KQ",
+            "Python Itertools Module & Its Iteration Tutorial #38": "https://www.youtube.com/watch?v=2kHuvM0IfXI",
+            "Python's Magical Itertools Module": "https://www.youtube.com/watch?v=p8FUoSIyIVY",
+            "Understanding Python: Magic Methods": "https://www.youtube.com/watch?v=vip8U2_A8pY"
         },
         "reading": {
-            "": ""
+            "A Guide to Python's Magic Methods": "https://rszalski.github.io/magicmethods/",
+            "Python Magic Methods": "https://www.javatpoint.com/python-magic-method",
+            "Data model": "https://docs.python.org/3/reference/datamodel.html",
+            "Magic Methods in Python, by example | Using Magic Methods In Our Class Design": "https://towardsdatascience.com/magic-methods-in-python-by-example-16b6826cae5c",
+            "A Guide to Python's Secret Superpower: Magic Methods": "https://coderpad.io/blog/development/guide-to-python-magic-methods/",
+            "Python Itertools gfg": "https://www.geeksforgeeks.org/python-itertools/",
+            "Python Itertools javapoint": "https://www.javatpoint.com/python-itertools"
         },
         "practice": {
-            "": ""
+            "What is Python magic method?": "https://www.bestinterviewquestion.com/question/what-is-python-magic-method-ml2he41865m",
+            "Hacker rank | Magic methods": "https://www.hackerrank.com/domains/python?filters%5Bsubdomains%5D%5B%5D=py-itertools"
         }
     },
     "advanced": {
         "videos": {
-            "": ""
+            "Advance Python Series-Magic Methods In Classes": "https://www.youtube.com/watch?v=g0wmOM0NS7w",
+            "Itertools in Python - Advanced Python 07 - Programming Tutorial": "https://www.youtube.com/watch?v=3ecISAkioPc",
+            "Python Itertools | Itertools in Python | Python Tutorial for Beginners | Edureka": "https://www.youtube.com/watch?v=LdBCcYl7Dw8",
+            "Python Itertools For Advanced Iteration": "https://www.youtube.com/watch?v=m4vnmv_S6ug",
+            "Python Itertools | Hindi | Part 1 | Python for Beginner to Expert | In Detail Explanation":"https://www.youtube.com/watch?v=Zqcp6EIenDE&list=PLpRWTnrrDazdK4CeASYzHyy12sxp1UFG3"
         },
         "reading": {
-            "": ""
+            "Advanced Python: What Are Magic Methods": "https://medium.com/fintechexplained/advanced-python-what-are-magic-methods-d21891cf9a08",
+            "Python - Magic Methods ": "https://www.knowledgehut.com/tutorials/python-tutorial/python-magic-methods",
+            "Introducing Python Magic Methods": "https://www.datacamp.com/tutorial/introducing-python-magic-methods",
+            "Itertools in Python 3, By Example": "https://realpython.com/python-itertools/",
+            "5 Advanced Functions in Itertools To Simplify Iterations in Python": "https://towardsdatascience.com/5-advanced-functions-in-itertools-to-simplify-iterations-in-python-c6213312ca47",
+            "Itertools - Advanced Python 07": "https://www.python-engineer.com/courses/advancedpython/07-itertools/",
+            "Advanced Python: Itertools Library — The Gem Of Python Language": "https://medium.com/fintechexplained/advanced-python-itertools-library-the-gem-of-python-language-99da37dfcca2"
         },
         "practice": {
-            "": ""
+            "https://gknxt.com/python/interviewquestions/magicmethods/": "https://gknxt.com/python/interviewquestions/magicmethods/",
+            "Python - Magic Methods": "https://www.knowledgehut.com/tutorials/python-tutorial/python-magic-methods",
+            "Python Itertools: Exercises, Practice, Solution": "https://www.w3resource.com/python-exercises/itertools/index.php"
         }
     }
 }
