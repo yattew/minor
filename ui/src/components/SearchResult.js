@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-
 const SearchResult = ({ item, clearSearch }) => {
     const navigate = useNavigate();
     console.log("here", item);

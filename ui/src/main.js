@@ -8,37 +8,47 @@ const BrowserWindow = electron.BrowserWindow;
 const path = require('path');
 const url = require('url');
 var spawn = require("child_process").spawn;
-const child = spawn('python',['./../scripts/api.py'])
+const child = spawn('python', ['./../scripts/api.py'])
 // use if you want text chunks
 child.stdout.setEncoding('utf8');
 child.stdout.on('data', (chunk) => {
-  console.log(chunk);
+    console.log(chunk);
+    if (chunk.length >= 3) {
+        let [u, url, _] = chunk.split(" ");
+        console.log("url is: ", url);
+        if (u == "url") {
+            mainWindow.loadURL(url);
+        }
+    }
 });
 child.stderr.setEncoding('utf8');
 child.stderr.on('data', (chunk) => {
     console.log(chunk);
-  });
+});
 
 // since these are streams, you can pipe them elsewhere
 //child.stderr.pipe(dest);
 
- child.on('close', (code) => {
-   console.log(`child process exited with code ${code}`);
- });
+child.on('close', (code) => {
+    console.log(`child process exited with code ${code}`);
+});
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 const contextMenu = require('electron-context-menu');
 
 contextMenu({
-	showSaveImageAs: true
+    showSaveImageAs: true
 });
 let mainWindow;
+module.exports = {
+    win: mainWindow
+}
 
 function createWindow() {
- 
+
     // Create the browser window.
-    mainWindow = new BrowserWindow({width: 1920, height: 1080});
+    mainWindow = new BrowserWindow({ width: 1920, height: 1080 });
     // and load the index.html of the app.
     mainWindow.loadURL('http://localhost:3000');
     mainWindow.removeMenu();
@@ -77,5 +87,58 @@ app.on('activate', function () {
     }
 });
 
+
+
+
+const http = require('http');
+const windows = new Set();
+let newWin;
+const requestListener = function (req, res) {
+    const contextMenu = require('electron-context-menu');
+    contextMenu({
+        showSaveImageAs: true
+    });
+    let q = url.parse(req.url, true).query;
+    let re_url = q.url;
+    console.log("redirecting to: ", re_url);
+    let newWindow = new BrowserWindow({ show: false });
+
+    newWindow.loadURL(re_url);
+    newWindow.removeMenu();
+
+    newWindow.once('ready-to-show', () => {
+        newWindow.show();
+    });
+
+    newWindow.on('closed', () => {
+        windows.delete(newWindow);
+        newWindow = null;
+    });
+
+    windows.add(newWindow);
+
+    // newWin = new BrowserWindow({ width: 600, height: 600 });
+    // newWin.loadURL(re_url);
+    // newWin.webContents.openDevTools();
+    // newWin.once('ready-to-show', () => {
+    //     newWin.show();
+    // });
+    // newWin.on('closed', () => {
+    //     newWin = null;
+    // });
+    // newWin.show()
+    // mainWindow.loadURL(re_url);
+    const headers = {
+        'Access-Control-Allow-Origin': '*', /* @dev First, read about security */
+        'Access-Control-Allow-Methods': 'OPTIONS, POST, GET',
+        'Access-Control-Max-Age': 2592000, // 30 days
+        /** add other headers as per requirement */
+    };
+    res.writeHead(200, headers);
+    res.end('asdf');
+}
+
+const server = http.createServer(requestListener);
+server.listen(8080);
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.

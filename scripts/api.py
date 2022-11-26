@@ -3,6 +3,7 @@ from flask import Flask
 from flask_cors import CORS, cross_origin
 from tree import *
 from utils import *
+import sys
 
 
 app = Flask(__name__)
@@ -28,6 +29,7 @@ def doc(item):
     # with open(doc_p,"r") as f:
     #     doc= f.read()
     return {"doc":doc}
+
 
 
 if __name__ == "__main__":

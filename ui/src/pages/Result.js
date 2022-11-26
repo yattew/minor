@@ -1,25 +1,35 @@
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import config from "../config";
 
+import { useEffect } from "react";
+import ResultMain from "../components/ResultMain";
+import ResultMore from "../components/ResultMore";
+import ResultRelated from "../components/ResultRelated"
+import Styles from "../css/result.module.css"
+import config from "../config"
+// In the main process.
+
+
+
+// Or load a local HTML file
+// win.loadFile('index.html')
 const ResultPage = () => {
-    const [ doc, setDoc ] = useState("");
-    const {item} = useParams();
     useEffect(() => {
-        let addr = config.host_addr;
+        let url = "https://leetcode.com/problems/subarray-sum-equals-k/";
         const fn = async () => {
-            let res = await fetch(`${addr}/doc/${item}`);
-            let data = await res.json();
-            let doc = data["doc"];
-            setDoc(doc);
+            let res = await fetch(`http://127.0.0.1:8080/?url=${url}`);
         }
         fn();
-    }, [item]);
-    return (
-        <div>
-            docs should be here on the result page for  {doc}
-        </div>
-    )
+        fn();
+    }, []);
+    return ( <div></div>)
+        // <div className={Styles.ResultContainer}>
+        //     <div className={Styles.ResultMain}>
+        //         <ResultMain />
+        //     </div>
+        //     <div className={Styles.ResultExtra}>
+        //         <ResultMore/>
+        //         <ResultRelated/>
+        //     </div>
+        // </div>
 }
 
 export default ResultPage;

@@ -1,0 +1,22 @@
+.ResultContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.ResultMain{
+    background-color: aliceblue;
+    width: 70%;
+    padding: 1rem;
+}
+
+.ResultExtra{
+    background-color: antiquewhite;
+    width: 30%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.ResultExtra > div{
+    height: 50%;
+}
