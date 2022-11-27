@@ -2,6 +2,9 @@ import json
 from pathlib import Path
 from stopstem import *
 import os
+import gensim
+from gensim.models import Word2Vec
+import pickle
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 path = "C://Users//ganes//Desktop//mini//jsons"
@@ -26,3 +29,9 @@ for i in dir_list:
 with open(BASE_DIR/("reference/dataset__dataset.txt"),'w') as target:
     target.write(vocab)
 #print(vocabulary)
+
+
+
+ 
+
+
