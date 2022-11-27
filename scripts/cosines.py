@@ -33,3 +33,4 @@ def cosine(string1,string2):
     result = calcCosine(oneHot1,oneHot2)
     return result
 
+

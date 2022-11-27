@@ -1,0 +1,5 @@
+Availability: not Emscripten, not WASI.
+
+This module does not work or is not available on WebAssembly platforms
+"wasm32-emscripten" and "wasm32-wasi". See WebAssembly platforms for
+more information.
