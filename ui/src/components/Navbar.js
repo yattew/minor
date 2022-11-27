@@ -22,7 +22,7 @@ const Navbar = () => {
                                     "cursor":"pointer"
                                 }}
                             >
-                                {mode}
+                                {mode.toUpperCase()}
                             </span>
                             <div className="dropdown-menu dropdown-menu-end">
                                 {
@@ -40,7 +40,7 @@ const Navbar = () => {
                                                         setMode(mode);
                                                     }}
                                                 >
-                                                    {mode}
+                                                    {mode.toUpperCase()}
                                                 </span>
                                             )
                                         }
