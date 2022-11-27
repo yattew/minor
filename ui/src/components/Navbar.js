@@ -13,25 +13,25 @@ const Navbar = () => {
                 <Search />
 
                 <div className={styles.rightContent}>
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item dropdown">
+                    <ul className="nav navbar-nav">
+                        <li className="nav-item dropdown">
                             <span
-                                class="nav-link dropdown-toggle"
+                                className="nav-link dropdown-toggle"
                                 data-bs-toggle="dropdown"
                                 style={{
                                     "cursor":"pointer"
                                 }}
                             >
-                                {mode}
+                                {mode.toUpperCase()}
                             </span>
-                            <div class="dropdown-menu dropdown-menu-end">
+                            <div className="dropdown-menu dropdown-menu-end">
                                 {
                                     (() => {
                                         let arr = [];
                                         for (let mode in modes) {
                                             arr.push(
                                                 <span
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     key={mode}
                                                     style={{
                                                         "cursor":"pointer"
@@ -40,7 +40,7 @@ const Navbar = () => {
                                                         setMode(mode);
                                                     }}
                                                 >
-                                                    {mode}
+                                                    {mode.toUpperCase()}
                                                 </span>
                                             )
                                         }

@@ -1,29 +1,30 @@
 
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import ResultMore from "../components/ResultMore";
 import ResultRelated from "../components/ResultRelated"
 import Styles from "../css/result.module.css"
 import config from "../config"
 import { openInNewWin } from "../utils";
 import { useParams } from "react-router-dom";
+import LearningModeContext from "../Contexts";
 
 const ResultPage = () => {
     const { item } = useParams();
+    const {mode} = useContext(LearningModeContext);
     const [results, setResults] = useState([]);
     const [related, setRelated] = useState([]);
-    const [more, setMore] = useState([]);
     useEffect(() => {
         console.log("from result page:", item);
         const fn = async () => {
             let query = item;
             let host_addr = config.host_addr;
-            let res = await fetch(host_addr + "result/" + query);
+            let res = await fetch(host_addr + "result/" + query + "/" + mode);
             if (res.ok) {
                 let data = await res.json();
                 console.log("result data:", data);
                 // fetch(`http://127.0.0.1:8080/?url=${data["url"]}`);
+                setResults(data["urls"]);
                 setRelated(data["related"]);
-                setMore(data["more"]);
             }
             else {
                 alert("cannot resolve the query")
@@ -31,27 +32,63 @@ const ResultPage = () => {
             }
         }
         fn();
-    }, [item]);
+    }, [item, mode]);
+    const openInNewWin = (url) => {
+        fetch(`http://127.0.0.1:8080/?url=${url}`);
+    }
     return (
         <div className={Styles.ResultContainer}>
-            
-            <div>
-                <span>
-                    
-                more stuff
-                </span>
-            </div>
-            <div>
-                <span>
+            <div className={Styles.ResultMain}>
+                <div>
+                    Result for {item}
+                </div>
+                <ul>
+                    {
+                        results.map((el) => {
+                            return <li className={Styles.ResultListItem} key={el["title"]}>
+                                <div>
+                                    <div>
+                                        <div className={Styles.ResultTitle}>
+                                            <span className={
+                                                Styles.Difficulty +
+                                                " "
+                                                +
+                                                (el["difficulty"] == "beginner" ?
+                                                    Styles.green
+                                                    :
+                                                    (el["difficulty"] == "intermediate" ?
+                                                        Styles.yellow
+                                                        :
+                                                        Styles.red))
+                                            }>
+                                                {"[  " + el["difficulty"] + "  ]  "}
+                                            </span>
+                                            {el["title"].substr(0, 80)}
 
-                Result for {item}
-                </span>
-            </div>
-            <div>
-                <span>
+                                        </div>
+                                        <div>
 
-                related stuff
-                </span>
+                                            <a href={el["url"]} onClick={(e) => { e.preventDefault() }}>
+                                                {el["url"].substr(0, 80)}
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <button
+                                        className="btn btn-primary"
+                                        onClick={() => openInNewWin(el["url"])}
+                                    >
+                                        open
+                                    </button>
+                                </div>
+                            </li>
+                        })
+                    }
+                </ul>
+            </div>
+            <div className={Styles.ResultRelated}>
+                <div>
+                    related stuff
+                </div>
             </div>
         </div>
 
