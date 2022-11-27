@@ -30,7 +30,7 @@ def cosine(string1,string2):
     for i in str2Arr:
         if i in vocabDict:
             oneHot2[vocabDict[i]]+=1
-    result = calcCosine(oneHot1,oneHot2)
+    result = cacCosine(oneHot1,oneHot2)
     return result
 
 
