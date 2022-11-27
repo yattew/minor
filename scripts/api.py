@@ -20,13 +20,97 @@ def query(query):
     result = tuple(set(list(search_term(tree, nodes, query))))
     return {"res":result}
 
-@app.route("/result/<query>")
+@app.route("/result/<query>/<mode>")
 @cross_origin()
-def result(query):
+def result(query, mode):
+    print(mode)
     return {
-        "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
-        "related":[],
-        "more":[]
+        "urls":[{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://getbootstrap.com/docs/5.0/customize/color/",
+            "difficulty":"intermediate",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"advanced",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            },{
+            "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+            "difficulty":"beginner",
+            "title":"max sum path across two arrays"
+            }],
+        "related":["tuple", "dictionary", "string"],
     }
 
 @app.route("/doc/<item>")

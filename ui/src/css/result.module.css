@@ -2,18 +2,87 @@
     width: 100%;
     height: 100%;
     display: flex;
+    /* align-items: flex-start; */
     /* flex-direction: column; */
 }
 .ResultContainer > div{
-    width: 33vw;
-    text-align: center;
+    /* text-align: center; */
     padding: 1rem;
     margin: 1rem;
     /* background-color: aliceblue; */
+    background-color: whitesmoke;
     border-radius: 1rem;
     box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.57);
 }
-.ResultContainer > div > span{
-    text-decoration: underline;
+
+.ResultContainer ul{
+    width: 100%;
+    margin-top: 1rem;
+}
+.ResultListItem{
+    width: 100%;
+}
+.ResultListItem > div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.ResultListItem a{
+    text-decoration: none;
+    color: black;
+}
+.ResultListItem button{
+    padding: 0rem 2rem;
+    margin-right: 2rem;
     font-size: larger;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.ResultListItem > div >div{
+    width: 70%;
+}
+.ResultContainer li{
+    margin: 2rem 0rem;
+    list-style: none;
+}
+
+.ResultMain{
+    width:70%;
+    overflow: auto;
+}
+
+.green{
+    color: green;
+}
+
+.yellow{
+    color: orange;
+}
+
+.red{
+    color: red;
+}
+
+.ResultRelated{
+    width:30%;
+}
+
+.ResultContainer > div > div{
+    text-decoration: underline;
+    font-size: x-large;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+}
+.ResultTitle{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.Difficulty{
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    /* color: ; */
 }
