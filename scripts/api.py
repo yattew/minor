@@ -18,8 +18,16 @@ tree, nodes = load_tree(config["tree_serialized"])
 def query(query):
     print(nodes)
     result = tuple(set(list(search_term(tree, nodes, query))))
-
     return {"res":result}
+
+@app.route("/result/<query>")
+@cross_origin()
+def result(query):
+    return {
+        "url":"https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/",
+        "related":[],
+        "more":[]
+    }
 
 @app.route("/doc/<item>")
 @cross_origin()
