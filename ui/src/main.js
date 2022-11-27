@@ -92,7 +92,6 @@ app.on('activate', function () {
 
 const http = require('http');
 const windows = new Set();
-let newWin;
 const requestListener = function (req, res) {
     const contextMenu = require('electron-context-menu');
     contextMenu({
@@ -101,38 +100,21 @@ const requestListener = function (req, res) {
     let q = url.parse(req.url, true).query;
     let re_url = q.url;
     console.log("redirecting to: ", re_url);
-    let newWindow = new BrowserWindow({ show: false });
+    let newWindow = new BrowserWindow();
 
     newWindow.loadURL(re_url);
-    newWindow.removeMenu();
-
-    newWindow.once('ready-to-show', () => {
-        newWindow.show();
-    });
-
-    newWindow.on('closed', () => {
+    function onClosed() {
         windows.delete(newWindow);
+        newWindow.removeAllListeners();
         newWindow = null;
-    });
+    }
+    newWindow.on('closed', onClosed);
 
     windows.add(newWindow);
-
-    // newWin = new BrowserWindow({ width: 600, height: 600 });
-    // newWin.loadURL(re_url);
-    // newWin.webContents.openDevTools();
-    // newWin.once('ready-to-show', () => {
-    //     newWin.show();
-    // });
-    // newWin.on('closed', () => {
-    //     newWin = null;
-    // });
-    // newWin.show()
-    // mainWindow.loadURL(re_url);
     const headers = {
         'Access-Control-Allow-Origin': '*', /* @dev First, read about security */
         'Access-Control-Allow-Methods': 'OPTIONS, POST, GET',
-        'Access-Control-Max-Age': 2592000, // 30 days
-        /** add other headers as per requirement */
+        'Access-Control-Max-Age': 2592000,
     };
     res.writeHead(200, headers);
     res.end('asdf');

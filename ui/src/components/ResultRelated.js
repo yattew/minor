@@ -1,7 +1,8 @@
+import Styles from "../css/result.module.css";
 const ResultRelated = ()=>{
     return (
-        <div>
-            Result Related
+        <div className={Styles.ResultRelated}>
+            <h4>Related Results</h4>
         </div>
     )
 }

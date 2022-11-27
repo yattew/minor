@@ -2,21 +2,48 @@
     width: 100%;
     height: 100%;
     display: flex;
-}
-
-.ResultMain{
-    background-color: aliceblue;
-    width: 70%;
-    padding: 1rem;
-}
-
-.ResultExtra{
-    background-color: antiquewhite;
-    width: 30%;
-    padding: 1rem;
-    display: flex;
     flex-direction: column;
 }
-.ResultExtra > div{
+
+.ResultInfo{
+    width: 100%;
+    padding-top: 2rem;
+    height: auto;
+    text-align: center;
+}
+
+.ExtraContainer{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height:100%;
+    padding-top: 1rem;
+}
+
+.Divider{
+    /* width: 1px; */
+    border-left: 2px solid black;
     height: 50%;
+}
+
+.ResultMore{
+}
+
+.ResultRelated{
+    
+    /* border-left: 3px solid black; */
+}
+
+.ResultMore, .ResultRelated{
+    width: 50%;
+    height: 90%;
+    text-align: center;
+    padding: 1rem;
+    background-color: whitesmoke;
+    margin: 0rem 4rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 13px -1px rgba(0, 0, 0, 0.338);
+}
+.ResultMore, .ResultRelated > h4{
+    text-decoration: underline;
 }

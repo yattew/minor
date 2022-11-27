@@ -1,35 +1,29 @@
 
 import { useEffect } from "react";
-import ResultMain from "../components/ResultMain";
 import ResultMore from "../components/ResultMore";
 import ResultRelated from "../components/ResultRelated"
 import Styles from "../css/result.module.css"
 import config from "../config"
-// In the main process.
+import { openInNewWin } from "../utils";
 
-
-
-// Or load a local HTML file
-// win.loadFile('index.html')
 const ResultPage = () => {
     useEffect(() => {
-        let url = "https://leetcode.com/problems/subarray-sum-equals-k/";
-        const fn = async () => {
-            let res = await fetch(`http://127.0.0.1:8080/?url=${url}`);
-        }
-        fn();
-        fn();
+        let url = "https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/";
+        // openInNewWin(url);
     }, []);
-    return ( <div></div>)
-        // <div className={Styles.ResultContainer}>
-        //     <div className={Styles.ResultMain}>
-        //         <ResultMain />
-        //     </div>
-        //     <div className={Styles.ResultExtra}>
-        //         <ResultMore/>
-        //         <ResultRelated/>
-        //     </div>
-        // </div>
+    return (
+        <div className={Styles.ResultContainer}>
+            <div className={Styles.ResultInfo}>
+                <h3>your search result is being openend in a new window</h3>
+            </div>
+            <div className={Styles.ExtraContainer}>
+                <ResultMore />
+                <div className={Styles.Divider}></div>
+                <ResultRelated />
+            </div>
+        </div>
+
+    )
 }
 
 export default ResultPage;
