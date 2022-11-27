@@ -5,12 +5,15 @@ import ResultRelated from "../components/ResultRelated"
 import Styles from "../css/result.module.css"
 import config from "../config"
 import { openInNewWin } from "../utils";
+import { useParams } from "react-router-dom";
 
 const ResultPage = () => {
+    let { item } = useParams();
     useEffect(() => {
+        console.log("from result page:",item);
         let url = "https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/";
         // openInNewWin(url);
-    }, []);
+    }, [item]);
     return (
         <div className={Styles.ResultContainer}>
             <div className={Styles.ResultInfo}>

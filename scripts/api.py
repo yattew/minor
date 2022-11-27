@@ -17,7 +17,7 @@ tree, nodes = load_tree(config["tree_serialized"])
 @cross_origin()
 def query(query):
     print(nodes)
-    result = search_term(tree, nodes, query)
+    result = tuple(set(list(search_term(tree, nodes, query))))
 
     return {"res":result}
 

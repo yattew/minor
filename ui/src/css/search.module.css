@@ -9,15 +9,17 @@
     /* height: 100px; */
     max-height: 70vh;
     overflow: auto;
-    /* background-color: whitesmoke; */
+    /* background-color: white; */
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 13px -1px rgba(0, 0, 0, 0.338);
 }
 .searchResultContainer>div{
     font-size: larger;
     border-bottom: 2px gray solid;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     cursor: pointer;
-    padding: 0.3rem 0;
-    margin: 0.3rem 0;
+    padding: 0.3rem 1rem;
+    /* margin: 0.3rem 0; */
 }
 .searchResultContainer > div:hover{
     background-color: rgb(186, 223, 255);

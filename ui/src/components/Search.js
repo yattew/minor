@@ -9,28 +9,34 @@ const Search = () => {
         let query = e.target.value;
         let host_addr = config.host_addr;
         let res = await fetch(host_addr + "query/" + query);
-        if (res.ok){
+        if (res.ok) {
             let data = await res.json();
             console.log(data);
             setSearchResults(data["res"]);
         }
-        else{
+        else {
             setSearchResults([]);
         }
     }
-    const clearSearch = ()=>{
+    const clearSearch = () => {
         setSearchResults([]);
         inputRef.current.value = "";
+    }
+    const currSearchVal = () => {
+        return inputRef.current?.value;
     }
     return (
         <>
             <div className={Styles.searchContainer}>
 
-                <input className="form-control" onKeyUpCapture={handleChange} type="search" placeholder="Search" ref={inputRef}/>
+                <input className="form-control" onKeyUpCapture={handleChange} type="search" placeholder="Search" ref={inputRef} />
                 {
-                    searchResults.length ?
+                    currSearchVal() ?
                         <div className={Styles.searchResultContainer}>
-                            {searchResults.map((item) => <SearchResult item={item} key={item} clearSearch = {clearSearch}/>)}
+                            <SearchResult show={"search for: " + currSearchVal()} item={currSearchVal()} clearSearch={clearSearch}/>
+                            {
+                                searchResults.map((item) => <SearchResult show={item} item={item} key={item} clearSearch={clearSearch} />)
+                            }
                         </div>
                         : null
                 }
