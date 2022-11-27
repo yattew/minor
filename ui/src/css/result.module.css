@@ -2,48 +2,18 @@
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
-
-.ResultInfo{
-    width: 100%;
-    padding-top: 2rem;
-    height: auto;
-    text-align: center;
-}
-
-.ExtraContainer{
-    display: flex;
-    align-items: center;
-    width: 100vw;
-    height:100%;
-    padding-top: 1rem;
-}
-
-.Divider{
-    /* width: 1px; */
-    border-left: 2px solid black;
-    height: 50%;
-}
-
-.ResultMore{
-}
-
-.ResultRelated{
-    
-    /* border-left: 3px solid black; */
-}
-
-.ResultMore, .ResultRelated{
-    width: 50%;
-    height: 90%;
+.ResultContainer > div{
+    width: 33vw;
     text-align: center;
     padding: 1rem;
-    background-color: whitesmoke;
-    margin: 0rem 4rem;
+    margin: 1rem;
+    /* background-color: aliceblue; */
     border-radius: 1rem;
-    box-shadow: 5px 5px 13px -1px rgba(0, 0, 0, 0.338);
+    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.57);
 }
-.ResultMore, .ResultRelated > h4{
+.ResultContainer > div > span{
     text-decoration: underline;
+    font-size: larger;
 }

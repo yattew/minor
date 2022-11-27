@@ -9,18 +9,19 @@ import { useParams } from "react-router-dom";
 
 const ResultPage = () => {
     const { item } = useParams();
-    const [related,setRelated] = useState([]);
-    const [more,setMore] = useState([]);
+    const [results, setResults] = useState([]);
+    const [related, setRelated] = useState([]);
+    const [more, setMore] = useState([]);
     useEffect(() => {
-        console.log("from result page:",item);
-        const fn = async ()=>{
+        console.log("from result page:", item);
+        const fn = async () => {
             let query = item;
             let host_addr = config.host_addr;
             let res = await fetch(host_addr + "result/" + query);
             if (res.ok) {
                 let data = await res.json();
                 console.log("result data:", data);
-                fetch(`http://127.0.0.1:8080/?url=${data["url"]}`);
+                // fetch(`http://127.0.0.1:8080/?url=${data["url"]}`);
                 setRelated(data["related"]);
                 setMore(data["more"]);
             }
@@ -33,13 +34,24 @@ const ResultPage = () => {
     }, [item]);
     return (
         <div className={Styles.ResultContainer}>
-            <div className={Styles.ResultInfo}>
-                <h3>Result for {item} is opened in a new window</h3>
+            
+            <div>
+                <span>
+                    
+                more stuff
+                </span>
             </div>
-            <div className={Styles.ExtraContainer}>
-                <ResultMore />
-                <div className={Styles.Divider}></div>
-                <ResultRelated />
+            <div>
+                <span>
+
+                Result for {item}
+                </span>
+            </div>
+            <div>
+                <span>
+
+                related stuff
+                </span>
             </div>
         </div>
 

@@ -33,13 +33,14 @@ const Search = () => {
                 {
                     currSearchVal() ?
                         <div className={Styles.searchResultContainer}>
-                            <SearchResult show={"search for: " + currSearchVal()} item={currSearchVal()} clearSearch={clearSearch}/>
+                            <SearchResult show={"search for: " + currSearchVal()} item={currSearchVal()} clearSearch={clearSearch} />
                             {
                                 searchResults.map((item) => <SearchResult show={item} item={item} key={item} clearSearch={clearSearch} />)
                             }
                         </div>
                         : null
                 }
+                
             </div>
         </>
     );

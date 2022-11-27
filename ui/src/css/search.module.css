@@ -1,5 +1,6 @@
 .searchContainer{
     width:50vw;
+    /* display: flex; */
 }
 .searchResultContainer {
     position: absolute;
