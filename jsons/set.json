@@ -14,7 +14,7 @@
             "Join sets" : "https://stackoverflow.com/questions/17429123/how-to-join-two-sets-in-one-line-without-using"
 
         },
-        "practice": {}
+        "practice": {" ":" "}
     },
     "intermediate": {
         "videos": {
@@ -27,7 +27,7 @@
             "Remove set items" : "https://thispointer.com/python-set-remove-single-or-multiple-elements-from-a-set/",
             " Set operations" : "https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/"
         },
-        "practice": {}
+        "practice": {" ": " "}
     },
     "advanced": {
         "videos": {

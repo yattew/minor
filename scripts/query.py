@@ -34,9 +34,9 @@ def sim(q1,q2,model1):
 
 
 
-def findSimilar(query,listOfDocs = os.listdir("C://Users//ganes//Desktop//mini//jsons")):
+def findSimilar(query,format,listOfDocs = os.listdir("C://Users//ganes//Desktop//mini//jsons")):
     BASE_DIR = Path(os.getcwd()).resolve().parent
-    with open('model.dat','rb') as file:
+    with open('../scripts/model.dat','rb') as file:
         model1 = pickle.load(file)
     #dic={stemmdtitle:[title,link,file]}
     dic={}
@@ -46,16 +46,30 @@ def findSimilar(query,listOfDocs = os.listdir("C://Users//ganes//Desktop//mini//
             with open(BASE_DIR/('jsons/'+i)) as f:
                 data=json.load(f)
                 for j in data:
-                    for k in data[j]['videos'].keys():
-                        tok = ' '.join(tokenizeAndStem(k))
-                        dic[tok]=[k,data[j]['videos'][k],i]
-                        maxi.append([sim(tok,' '.join(tokenizeAndStem(query)),model1),k,i])
-                    for k in data[j]['reading'].keys():
-                        tok = ' '.join(tokenizeAndStem(k))
-                        dic[tok]=[k,data[j]['reading'][k],i]
-                        maxi.append([sim(tok,' '.join(tokenizeAndStem(query)),model1),k,i])
+                    if format == 'video':
+                        for k in data[j]['videos'].keys():
+                            tok = ' '.join(tokenizeAndStem(k))
+                            dic[tok]=[k,data[j]['videos'][k],i]
+                            maxi.append([sim(tok,' '.join(tokenizeAndStem(query)),model1),data[j]['reading'][k],k,j,i])
+                    elif format == 'reading':
+                        for k in data[j]['reading'].keys():
+                            tok = ' '.join(tokenizeAndStem(k))
+                            dic[tok]=[k,data[j]['reading'][k],i]
+                            maxi.append([sim(tok,' '.join(tokenizeAndStem(query)),model1),data[j]['reading'][k],k,j,i])
+                    else:
+                        pass
     return dic,maxi
 
+def answers(query,mode):
+    dic,maxi = findSimilar(query,mode)
+    answere = sorted(maxi,reverse=True)[0:8]
+    result = []
+    for i in answere:
+        result.append({"url":i[1],
+            "difficulty":i[3],
+            "title":i[2]})
+
+    return result
 l = os.listdir("C://Users//ganes//Desktop//mini//jsons")
 q1 = "Python Program to Print Natural Numbers Using While and For Loop in Hindi - Tutorial #22"
 q2 = "Print the first 10 natural numbers using for loop"

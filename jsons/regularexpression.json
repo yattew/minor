@@ -22,7 +22,7 @@
         "videos": {
             "Regular Expressions in Python - FULL COURSE (1 HOUR) - Programming Tutorial": "https://www.youtube.com/watch?v=AEE9ecgLgdQ",
             "Regular Expressions (Regex) Tutorial: How to Match Any Pattern of Text" : "https://www.youtube.com/watch?v=sa-TUpSx1JA",
-            "Regular Expressions in Python - FULL COURSE (1 HOUR) - Programming Tutorial" : "https://www.youtube.com/watch?v=AEE9ecgLgdQ"
+            "REGEX (REGULAR EXPRESSIONS) WITH EXAMPLES IN DETAIL | Regex Tutorial" : "https://www.youtube.com/watch?v=9RksQ5YT7FM"
         },
         "reading": {
             "Python Regular Expressions": "https://developers.google.com/edu/python/regular-expressions",
@@ -52,7 +52,7 @@
         },
         "practice": {
             "regex introduction": "https://learnbyexample.github.io/py_regular_expressions/Exercise_solutions.html",
-            "Regex and Parsing ChallengesEasyMediumHard" : "https://www.hackerrank.com/domains/python/py-regex/difficulty/all/page/1""
+            "Regex and Parsing ChallengesEasyMediumHard" : "https://www.hackerrank.com/domains/python/py-regex/difficulty/all/page/1"
         } 
     }
 }
