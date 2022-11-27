@@ -15,10 +15,12 @@ for i in dir_list:
             vocabulary = []
             print(i)
             data1 = json.load(data_source)
-            for i in data1:
-                vocabulary.extend(data1[i]["reading"].keys())
-                vocabulary.extend(data1[i]["videos"].keys())
+            for j in data1:
+                vocabulary.extend(data1[j]["reading"].keys())
+                vocabulary.extend(data1[j]["videos"].keys())
             vocab = ' '.join(vocabulary)
-            with open(BASE_DIR/("reference/dataset_"+i[:-4]+'txt')) as target:
+            # print(vocab)
+            # print(BASE_DIR/("reference/dataset_"+i[:-4]+'txt'))
+            with open(BASE_DIR/("reference/dataset_"+i[:-4]+'txt'),'w') as target:
                 target.write(vocab)
 #print(vocabulary)
