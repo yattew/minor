@@ -1,0 +1,50 @@
+{
+    "beginner": {
+        "videos": {
+            "Introduction to tuples": "https://www.youtube.com/watch?v=GstQPTWpt88",
+            "Creating a tuple": "https://www.youtube.com/watch?v=6Zg1YOEJpOA",
+            "Access tuple elements": "https://www.youtube.com/watch?v=UL7-EwFk9C0",
+            "Slicing and indexing": "https://www.youtube.com/watch?v=4Fr5XYME6RY",
+        },
+        "reading": {
+            "Introduction to tuples": "https://www.scaler.com/topics/python/tuples-in-python/",
+            "Creating a tuple": "https://www.makeuseof.com/how-to-create-and-use-tuples-in-python/",
+            "Access tuple elements": "https://www.w3schools.com/python/python_tuples_access.asp",
+            "Slicing and indexing": "https://towardsdatascience.com/the-basics-of-indexing-and-slicing-python-lists-2d12c90a94cf",
+        },
+        "practice": {
+        
+        }
+    },
+    "intermediate": {
+        "videos": {
+            "Changing a tuple": "https://www.youtube.com/watch?v=i2laA0mz6TI",
+            "Updating and Deleting a tuple": "https://www.youtube.com/watch?v=Cz2aqoryt2E",
+            "Tuple methods": "https://www.youtube.com/watch?v=KLNIFk-3_xw",
+        },
+        "reading": {
+            "Changing a tuple": "https://stackoverflow.com/questions/11458239/how-to-change-values-in-a-tuple",
+            "Updating and deleting a tuple": "https://www.sarthaks.com/133592/how-we-update-and-delete-tuples",
+            "Tuple methods": "https://www.w3schools.com/python/python_ref_tuple.asp",
+        },
+        "practice": {
+  
+        }
+    },
+    "advanced": {
+        "videos": {
+            "Tuple membership test": "https://www.youtube.com/watch?v=OiUOzOYO0Po",
+            "Iterating through a tuple": "https://www.youtube.com/watch?v=T1uB5bJzmDU",
+            "Built-in functions for tuple": "https://www.youtube.com/watch?v=t-GFyNI1KC0"
+        },
+        "reading": {
+            "Tuple membership test": "https://www.oraask.com/wiki/python-tuple-membership",
+            "Iterating through a tuple": "https://www.tutorialspoint.com/How-to-iterate-through-a-tuple-in-Python",
+            "Built-in functions for tuple": "https://www.tutorialspoint.com/built-in-tuple-functions-in-python"
+        },
+        "practice": {
+            "80+ Important python tuple questions": "https://csiplearninghub.com/important-tuple-questions-in-python/",
+            "Python - Tuple Exercises": "https://www.w3schools.com/python/python_tuples_exercises.asp"
+        }
+    }
+}

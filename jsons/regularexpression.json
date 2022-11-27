@@ -1,0 +1,58 @@
+{
+    "beginner": {
+        "videos": {
+            "Regular Expressions | Python Tutorials For Absolute Beginners": "https://www.youtube.com/watch?v=g8u0wLvvPSs",
+            "Python RegEx | Python Regular Expressions Tutorial | Python Tutorial | Python Training " : "https://www.youtube.com/watch?v=zN8rwVXwRUE",
+            "Regular Expressions in Python | Python Tutorial for Beginners | Naresh IT" : "https://www.youtube.com/watch?v=Go_MJHlI7aw",
+            "Regular Expressions (Regex) in Python": "https://www.youtube.com/watch?v=UQQsYXa1EHs"
+        },
+        "reading": {
+            "Python RegEx": "https://www.w3schools.com/python/python_regex.asp",
+            "Regular Expression in Python with Examples" : "https://www.geeksforgeeks.org/regular-expression-python-examples-set-1/",
+            "Python - Regular Expressions" : "https://www.tutorialspoint.com/python/python_reg_expressions.htm"
+        },
+        "practice": {
+            "Python Regular Expression - Exercises, Practice, Solution": "https://www.w3resource.com/python-exercises/re/",
+            "Regular Expressions in Python" : "https://www.geeksforgeeks.org/regular-expressions-python-set-1-search-match-find/",
+            "Interview Questions in Python : Regular Expressions" : "https://programmingwithmosh.com/interviews/interview-questions-in-python-regular-expressions/",
+            "REGEX EXERCISES + SOLUTIONS" : "https://www.kaggle.com/code/albeffe/regex-exercises-solutions"
+        }
+    },
+    "intermediate": {
+        "videos": {
+            "Regular Expressions in Python - FULL COURSE (1 HOUR) - Programming Tutorial": "https://www.youtube.com/watch?v=AEE9ecgLgdQ",
+            "Regular Expressions (Regex) Tutorial: How to Match Any Pattern of Text" : "https://www.youtube.com/watch?v=sa-TUpSx1JA",
+            "Regular Expressions in Python - FULL COURSE (1 HOUR) - Programming Tutorial" : "https://www.youtube.com/watch?v=AEE9ecgLgdQ"
+        },
+        "reading": {
+            "Python Regular Expressions": "https://developers.google.com/edu/python/regular-expressions",
+            "Python Regex" : "https://www.javatpoint.com/python-regex",
+            "Python Regular Expression (RegEX)" : "https://www.simplilearn.com/tutorials/python-tutorial/python-regular-expressions",
+            "Python RegEx" : "https://www.programiz.com/python-programming/regex",
+            "Python RegEx: re.match(), re.search(), re.findall() with Example" : "https://www.guru99.com/python-regular-expressions-complete-tutorial.html"
+        },
+        "practice": {
+            "Python RegEx": "https://www.programiz.com/python-programming/regex",
+            "Python Questions and Answers : Regular Expressions" : "https://www.sanfoundry.com/python-questions-answers-regular-expressions/"
+        }
+    },
+    "advanced": {
+        "videos": {
+            "Novice to Advanced RegEx in Less-than 30 Minutes + Python": "https://www.youtube.com/watch?v=GyJtxd14DTc",
+            "Python Advanced Tutorial 4 - Regular Expressions" : "https://www.youtube.com/watch?v=hiDg2TFYL9E",
+            "Advanced Python Programming - Regular Expressions Part 1" : "https://www.youtube.com/watch?v=FtdL60yPmKk",
+            "Advanced Date Matching with Regex - Including leap years" : "https://www.youtube.com/watch?v=BxwCbPdGhzs",
+            "Advanced String Searching including RegEx (Pandas Tutorials 06)" : "https://www.youtube.com/watch?v=N6PMWUYVnMs"
+        },
+        "reading": {
+            "Regular Expressions (RegEx) in Python : Advanced Concepts": "https://towardsai.net/p/l/regular-expressions-regex-in-python-advanced-concepts",
+            "Advanced Regular Expressions" : "https://python-course.eu/advanced-python/advanced-regular-expressions.php",
+            "Python Regular Expressions Concepts" : "https://towardsdatascience.com/anchors-away-more-python-regular-expressions-you-wish-you-knew-8a7780ac54e9",
+            "Advanced Python RegEx Examples" : "https://www.thegeekstuff.com/2014/07/advanced-python-regex/"
+        },
+        "practice": {
+            "regex introduction": "https://learnbyexample.github.io/py_regular_expressions/Exercise_solutions.html",
+            "Regex and Parsing ChallengesEasyMediumHard" : "https://www.hackerrank.com/domains/python/py-regex/difficulty/all/page/1""
+        } 
+    }
+}

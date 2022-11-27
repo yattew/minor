@@ -1,0 +1,59 @@
+{
+    "beginner": {
+        "videos": {
+            "Operator Overloading & Dunder Methods | Python Tutorials For Absolute Beginners In Hindi #67": "https://www.youtube.com/watch?v=iYu6KPigfr4",
+            "#59 Python Tutorial for Beginners | Operator Overloading | Polymorphism" : "https://www.youtube.com/watch?v=9wd50TKv_OQ",
+            "Polymorphism in Python | Lecture 58 | Method Overloading | Method Overriding | Operator Overloading": "https://www.youtube.com/watch?v=ORU-3g39xZI",
+            "OVERLOADING (POLYMORPHISM) - PYTHON PROGRAMMING": "https://www.youtube.com/watch?v=GxjK3uAIMjs",
+            "Python - Object Oriented Programming | Operator Overloading": "https://www.youtube.com/watch?v=L8K2RHRI7mA"
+        },
+        "reading": {
+            "Operator Overloading in Python": "https://www.geeksforgeeks.org/operator-overloading-in-python/",
+            "Python Operator Overloading": "https://www.programiz.com/python-programming/operator-overloading",
+            "Operator Overloading" : "https://www.javatpoint.com/what-is-operator-overloading-in-python",
+            "Difference between Method Overloading and Method Overriding in Python" : "https://www.geeksforgeeks.org/difference-between-method-overloading-and-method-overriding-in-python/",
+            "Python Operators" : "https://www.w3schools.com/python/python_operators.asp"
+        },
+        "practice": {
+            "Python Questions and Answers – Operator Overloading": "https://www.sanfoundry.com/python-interview-questions-answers-experienced/",
+            "The Python Quiz: Operator Overloading" : "https://www.thepythonquiz.com/questions/529/which-operator-is-overloaded-by-the-__invert__-method/#:~:text=The%20__invert__()%20methods%20overloads%20the%20~%20operator"
+        }
+    },
+    "intermediate": {
+        "videos": {
+            "#60 Python Tutorial for Beginners | Method Overloading and Method Overriding": "https://www.youtube.com/watch?v=CcTzTuIsoFk",
+            "Python OOP Tutorials | Operator Overloading in Python | Python Operator Overloading" : "https://www.youtube.com/watch?v=7c-mnmpNYpk",
+            "# 13 Operator Overloading in Python with Example" : "https://www.youtube.com/watch?v=DRthPvDn3ro",
+            "Python - Operator Overloading" : "https://www.youtube.com/watch?v=ahX28le3cZg" 
+        },
+        "reading": {
+            "OPERATOR OVERLOADING IN PYTHON": "https://prutor.ai/operator-overloading-in-python/",
+            "Python | Method Overloading" : "https://www.geeksforgeeks.org/python-method-overloading/",
+            "Operator overloading in Python" : "https://www.faceprep.in/python/operator-overloading-in-python/",
+            "Overloading Operators in Python" : "https://towardsdatascience.com/overloading-operators-in-python-2e24da0d36d7"
+        },
+        "practice": {
+            "Operator Overloading in Python: MCQs Python Programming": "https://myandroid.site/operator-overloading-in-python/",
+            "Python MCQs on Overloading" : "https://gettingplaced.com/python/python-mcqs-on-overloading/",
+            "Python Operators MCQ" : "https://aticleworld.com/python-operators-mcq/",
+            "Python Questions and Answers : Operator Overloading" : "https://www.sanfoundry.com/python-interview-questions-answers-experienced/#:~:text=Which%20operator%20is%20overloaded%20by%20the%20__or__()%20function%3F&text=Explanation%3A%20The%20function%20__or__,overloads%20the%20bitwise%20OR%20operator%20%7C"
+        }
+    },
+    "advanced": {
+        "videos": {
+            "Operator Overloading in Python (Hindi)": "https://www.youtube.com/watch?v=pCFPYQGPCvs",
+            "Advanced Python || Operator Overloading Part - 1 ": "https://www.youtube.com/watch?v=kIAUW3UnH9Q",
+            "Operator Overloading & Dunder Methods | Python Tutorials For Absolute Beginners" : "https://www.youtube.com/watch?v=iYu6KPigfr4",
+            "Operator Overloading in Python | Object Oriented Programming in Python" : "https://www.youtube.com/watch?v=MyHCtiWJujs",
+            "Lesson - 50 : Python Advanced - Python OOPs : Operator Overloading" : "https://www.youtube.com/watch?v=DCY3eqUomEc"
+        },
+        "reading": {
+            "Operator Overloading In Python with Easy Examples": "https://techvidvan.com/tutorials/operator-overloading-in-python/",
+            "Python Operator Overloading" : "https://www.pythontutorial.net/python-oop/python-operator-overloading/",
+            "Python Operator Overloading OOPS" : "https://www.programiz.com/python-programming/operator-overloading#:~:text=Python%20operators%20work%20for%20built,lists%2C%20or%20concatenate%20two%20strings",
+            "Overloading < operator" : "https://www.studytonight.com/python/python-operator-overloading",
+            "Python : Operator Overloading a specific type" : "https://stackoverflow.com/questions/3188666/python-operator-overloading-a-specific-type"
+        },
+        "practice": {}
+    }
+}

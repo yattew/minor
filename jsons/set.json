@@ -1,0 +1,46 @@
+{
+    "beginner": {
+        "videos": {
+            "Introduction to sets": "https://www.youtube.com/watch?v=MEPlLAjPvXY",
+            "Accessing sets" : "https://www.youtube.com/watch?v=CFYHh95FK84",
+            "Loop sets" : "https://www.youtube.com/watch?v=OnDr4J2UXSA",
+            "Join sets" : "https://www.youtube.com/watch?v=gVOqUD5Zt38"
+
+        },
+        "reading": {
+            "Introduction to sets": "https://www.programiz.com/python-programming/set", 
+            "Accessing sets" : "https://www.studytonight.com/python-howtos/how-to-access-elements-in-a-set",
+            "Loop sets" : "https://www.w3schools.com/python/gloss_python_loop_set_items.asp",
+            "Join sets" : "https://stackoverflow.com/questions/17429123/how-to-join-two-sets-in-one-line-without-using"
+
+        },
+        "practice": {}
+    },
+    "intermediate": {
+        "videos": {
+            " Add set items": "https://www.techiedelight.com/add-values-to-set-python/",
+            "Remove set items" : "https://thispointer.com/python-set-remove-single-or-multiple-elements-from-a-set/",
+            " Set operation" : "https://www.youtube.com/watch?v=zvXEEJSPtO4"
+        },
+        "reading": {
+            " Add set items": "https://www.techiedelight.com/add-values-to-set-python/",
+            "Remove set items" : "https://thispointer.com/python-set-remove-single-or-multiple-elements-from-a-set/",
+            " Set operations" : "https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/"
+        },
+        "practice": {}
+    },
+    "advanced": {
+        "videos": {
+            "Set size and membership": "https://www.youtube.com/watch?v=lytCvBfMniI",
+            "Frozen set" : "https://www.youtube.com/watch?v=482kbk1x04w"
+        },
+        "reading": {
+            "Set size and membership": "https://stackoverflow.com/questions/37377861/check-membership-of-a-set-in-python",
+            "Frozen set" : "https://www.javatpoint.com/python-frozenset-function"
+        },
+        "practice": {
+            "Python Sets Exercises With Solutions": "https://www.my-courses.net/p/python-set-exercises-with-solutions.html",
+            "Python Set Exercises" : "https://www.w3schools.com/python/python_sets_exercises.asp"
+        }
+    }
+}

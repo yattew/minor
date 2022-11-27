@@ -1,0 +1,52 @@
+{
+    "beginner": {
+        "videos": {
+            "Introduction to strings": "https://www.youtube.com/watch?v=Ctqi5Y4X-jA&t=26s",
+            "Accessing characters in python string": "https://www.youtube.com/watch?v=9JUzyHoDDzM",
+            "Reversing a string in python" : "https://www.youtube.com/watch?v=USw-dS6fHm4",
+            "String slicing in python" : "https://www.youtube.com/watch?v=eH6GCyHnWTA",
+            "Beginner Python Tutorial 17 - Creating a String" : "https://www.youtube.com/watch?v=xT9ixHxwVV0"
+        },
+        "reading": {
+            "String Introduction": "https://www.edureka.co/blog/strings_in_python/",
+            "Creating string in python" : "https://www.hackerearth.com/practice/python/getting-started/string/tutorial/",
+            "Accessing characters in string"  : "https://thispointer.com/python-how-to-access-characters-in-string-by-index/",
+            " Reversing a string in python" : "https://www.w3schools.com/python/python_howto_reverse_string.asp",
+            " String slicing in python" : "https://realpython.com/lessons/string-slicing/"
+        },
+        "practice": {}
+    },
+    "intermediate": {
+        "videos": {
+            "Escape sequencing in python": "https://www.youtube.com/watch?v=7g6mQnpOxgE",
+            "Formatting of strings" : "https://www.youtube.com/watch?v=z4aqaH0kTWs",
+            " Multiline strings": "https://www.youtube.com/watch?v=ynDFFGv6poo",
+            "String length" : "https://www.youtube.com/watch?v=5VkAIishHc0"
+        },
+        "reading": {
+            "Escape sequencing in python": "https://www.scaler.com/topics/escape-sequence-in-python/",
+            "Formatting of strings"  :"https://www.learnpython.org/en/String_Formatting",
+            " Multiline strings" : "https://www.techbeamers.com/python-multiline-string/",
+            "String length" : "https://www.tutorialkart.com/python/python-string-length/"
+        },
+        "practice": {}
+    },
+    "advanced": {
+        "videos": {
+            "Variables in string": "https://www.youtube.com/watch?v=0cFA5Mj1Eg0",
+            "Inplace boolean logic" : "https://www.youtube.com/watch?v=ZNECcXTLPwo",
+            "Printing variable names and values" : "https://www.youtube.com/watch?v=HHvYUwtu51o"
+           
+        },
+        "reading": {
+            "Variables in string": "https://fchart.com/ees/eeshelp/string_vars.htm",
+            "Inplace boolean logic" : "https://www.geeksforgeeks.org/g-fact-43-logical-operators-on-string-in-python/",
+            "Printing variables names and values" : "https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-and-variable/" 
+        },
+        "practice": {
+            "Python String Exercise with Solutions": "https://pynative.com/python-string-exercise/",
+            "Practice questions of String in Python" : "https://csiplearninghub.com/practice-questions-of-string-in-python/",
+            "Python String Exercises" : "https://holypython.com/beginner-python-exercises/exercise-9-python-strings/"
+        }
+    }
+}
