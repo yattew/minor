@@ -39,7 +39,7 @@ def path():
         try:
             path = os.listdir("C://Users//ganes//Desktop//mini//jsons")
         except:
-            path = os.listdir("C://Users//ganes//Desktop//mini//jsons")
+            path = os.listdir("C://Users//Shabdansh//OneDrive//Desktop//minor1//jsons")
     return path
 
 def findSimilar(query,format,listOfDocs = path()):

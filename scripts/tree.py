@@ -81,7 +81,10 @@ def search_term(tree, nodes, term):
 
 def children(root,nodes,searchTerm):
     print(nodes[searchTerm])
-    return nodes[searchTerm].children
+    try:
+        return nodes[searchTerm].children.keys()
+    except:
+        return []
 
 def parents(root,nodes,searchTerm):
     return nodes[searchTerm].parents
@@ -90,9 +93,15 @@ def siblings(root,nodes,searchTerm):
     t= (nodes[searchTerm].parents).values()
     t2={}
     for i in t:
-        t2.update(i.children)
-    del t2[searchTerm]
-    return t2
+        try:
+            t2.update(i.children)
+        except:
+            pass
+    try:
+        del t2[searchTerm]
+    except:
+        pass
+    return t2.keys()
     
 if __name__ == "__main__":
     from utils import get_config
