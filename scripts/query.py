@@ -32,9 +32,17 @@ def sim(q1,q2,model1):
     v2/=c2
     return cacCosine(list(v1),list(v2))
 
+def path():
+    try:
+        path = os.listdir("C://Users//yatha//Desktop//minor//jsons")
+    except:
+        try:
+            path = os.listdir("C://Users//ganes//Desktop//mini//jsons")
+        except:
+            path = os.listdir("C://Users//ganes//Desktop//mini//jsons")
+    return path
 
-
-def findSimilar(query,format,listOfDocs = os.listdir("C://Users//yatha//Desktop//minor//jsons")):
+def findSimilar(query,format,listOfDocs = path()):
     BASE_DIR = Path(os.getcwd()).resolve().parent
     with open('../scripts/model.dat','rb') as file:
         model1 = pickle.load(file)
@@ -70,7 +78,9 @@ def answers(query,mode):
             "title":i[2]})
 
     return result
-l = os.listdir("C://Users//yatha//Desktop//minor//jsons")
+
+
+l = path()
 q1 = "Python Program to Print Natural Numbers Using While and For Loop in Hindi - Tutorial #22"
 q2 = "Print the first 10 natural numbers using for loop"
 dic,maxi = findSimilar("sum of first few integers",l)
