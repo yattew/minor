@@ -30,6 +30,7 @@
 .ResultListItem a{
     text-decoration: none;
     color: black;
+    font-size: small;
 }
 .ResultListItem button{
     padding: 0rem 2rem;
@@ -37,9 +38,13 @@
     font-size: larger;
     font-weight: 500;
     text-transform: uppercase;
+    /* width: 2%; */
 }
 .ResultListItem > div >div{
-    width: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .ResultContainer li{
     margin: 2rem 0rem;
@@ -74,10 +79,13 @@
     text-align: center;
     width: 100%;
 }
-.ResultTitle{
+.ResultTitleContainer{
     width:100%;
     display:flex;
     justify-content: space-between;
+}
+.ResultTitleContainer > span{
+    width: 20%;
 }
 .Difficulty{
     font-size: large;
@@ -85,4 +93,33 @@
     letter-spacing: 2px;
     font-weight: 600;
     /* color: ; */
+}
+
+.ResultRelated li{
+    margin: 0px;
+    padding: 0.7rem 0.4rem;
+    /* font-size: smaller; */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.434);
+}
+
+.ResultRelated li:hover{
+
+    background-color: rgb(186, 223, 255);
+    cursor: pointer;
+}
+
+.ResultRelatedLink{
+    font-size: larger;
+    text-transform: capitalize;
+    /* text-align: center; */
+    /* text-decoration: underline; */
+    /* padding: 0rem 1rem; */
+    margin: 0px;
+}
+.ResultTitleText{
+    font-size: larger;
+    text-align: left;
+    display: block;
+    /* text-decoration: underline; */
+    width: 60% !important; 
 }

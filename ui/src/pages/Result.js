@@ -7,12 +7,14 @@ import config from "../config"
 import { openInNewWin } from "../utils";
 import { useParams } from "react-router-dom";
 import LearningModeContext from "../Contexts";
+import { useNavigate } from "react-router-dom";
 
 const ResultPage = () => {
     const { item } = useParams();
-    const {mode} = useContext(LearningModeContext);
+    const { mode } = useContext(LearningModeContext);
     const [results, setResults] = useState([]);
     const [related, setRelated] = useState([]);
+    const navigate = useNavigate();
     useEffect(() => {
         console.log("from result page:", item);
         const fn = async () => {
@@ -36,6 +38,9 @@ const ResultPage = () => {
     const openInNewWin = (url) => {
         fetch(`http://127.0.0.1:8080/?url=${url}`);
     }
+    const reSearch = (el) => {
+        navigate(`/result/${el}`);
+    }
     return (
         <div className={Styles.ResultContainer}>
             <div className={Styles.ResultMain}>
@@ -48,7 +53,7 @@ const ResultPage = () => {
                             return <li className={Styles.ResultListItem} key={el["title"]}>
                                 <div>
                                     <div>
-                                        <div className={Styles.ResultTitle}>
+                                        <div className={Styles.ResultTitleContainer}>
                                             <span className={
                                                 Styles.Difficulty +
                                                 " "
@@ -63,22 +68,26 @@ const ResultPage = () => {
                                             }>
                                                 {"[  " + el["difficulty"] + "  ]  "}
                                             </span>
-                                            {el["title"].substr(0, 80)}
+                                            <span className={Styles.ResultTitleText}>
 
+                                                {el["title"].substr(0, 60)}
+                                            </span>
+                                            <button
+                                                className="btn btn-primary"
+                                                onClick={() => openInNewWin(el["url"])}
+                                            >
+                                                open
+                                            </button>
                                         </div>
                                         <div>
 
                                             <a href={el["url"]} onClick={(e) => { e.preventDefault() }}>
-                                                {el["url"].substr(0, 80)}
+                                                {el["url"].substr(0, 70)}
                                             </a>
                                         </div>
+
                                     </div>
-                                    <button
-                                        className="btn btn-primary"
-                                        onClick={() => openInNewWin(el["url"])}
-                                    >
-                                        open
-                                    </button>
+
                                 </div>
                             </li>
                         })
@@ -89,6 +98,17 @@ const ResultPage = () => {
                 <div>
                     related stuff
                 </div>
+                <ul>
+                    {
+                        related.map(el => {
+                            return <li key={el} onClick={() => reSearch(el)}>
+                                <div className={Styles.ResultRelatedLink}>
+                                    {el}
+                                </div>
+                            </li>
+                        })
+                    }
+                </ul>
             </div>
         </div>
 

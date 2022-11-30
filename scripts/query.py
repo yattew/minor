@@ -34,7 +34,7 @@ def sim(q1,q2,model1):
 
 
 
-def findSimilar(query,format,listOfDocs = os.listdir("C://Users//ganes//Desktop//mini//jsons")):
+def findSimilar(query,format,listOfDocs = os.listdir("C://Users//yatha//Desktop//minor//jsons")):
     BASE_DIR = Path(os.getcwd()).resolve().parent
     with open('../scripts/model.dat','rb') as file:
         model1 = pickle.load(file)
@@ -50,7 +50,7 @@ def findSimilar(query,format,listOfDocs = os.listdir("C://Users//ganes//Desktop/
                         for k in data[j]['videos'].keys():
                             tok = ' '.join(tokenizeAndStem(k))
                             dic[tok]=[k,data[j]['videos'][k],i]
-                            maxi.append([sim(tok,' '.join(tokenizeAndStem(query)),model1),data[j]['reading'][k],k,j,i])
+                            maxi.append([sim(tok,' '.join(tokenizeAndStem(query)),model1),data[j]['videos'][k],k,j,i])
                     elif format == 'reading':
                         for k in data[j]['reading'].keys():
                             tok = ' '.join(tokenizeAndStem(k))
@@ -70,7 +70,7 @@ def answers(query,mode):
             "title":i[2]})
 
     return result
-l = os.listdir("C://Users//ganes//Desktop//mini//jsons")
+l = os.listdir("C://Users//yatha//Desktop//minor//jsons")
 q1 = "Python Program to Print Natural Numbers Using While and For Loop in Hindi - Tutorial #22"
 q2 = "Print the first 10 natural numbers using for loop"
 dic,maxi = findSimilar("sum of first few integers",l)
