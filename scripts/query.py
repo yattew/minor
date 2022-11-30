@@ -7,7 +7,7 @@ from gensim.models import Word2Vec
 import pickle
 from cosines import cacCosine
 import numpy as np
-
+from tree import *
 #print(model1.wv)
 def sim(q1,q2,model1):
     a1 = q1.split()
@@ -30,7 +30,9 @@ def sim(q1,q2,model1):
         except:
             pass
     v2/=c2
+
     return cacCosine(list(v1),list(v2))
+
 
 def path():
     try:
@@ -77,9 +79,25 @@ def answers(query,mode):
             "difficulty":i[3],
             "title":i[2]})
 
-    return result
+    return result,sorted(maxi,reverse=True)
 
+def topSuggest(arr):
+    try:
+        count={}
+        for i in arr:
+            if i[-1] in count:
+                count[i[-1]]+=1
+            else:
+                count[i[-1]]=1
+        lst=[[count[i],i] for i in count]
+        lst.sort()
+        tree,nodes=load_tree('tree.dat')
+        related=list(children(tree,nodes,lst[0][1][:-5:]))+list(siblings(tree,nodes,lst[0][1][:-5:]))+list(parents(tree,nodes,lst[0][1][:-5:]))
+        return related
+    except:
+        return []
 
+    
 l = path()
 q1 = "Python Program to Print Natural Numbers Using While and For Loop in Hindi - Tutorial #22"
 q2 = "Print the first 10 natural numbers using for loop"

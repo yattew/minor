@@ -8,6 +8,7 @@ import { openInNewWin } from "../utils";
 import { useParams } from "react-router-dom";
 import LearningModeContext from "../Contexts";
 import { useNavigate } from "react-router-dom";
+import { v4 } from 'uuid';
 
 const ResultPage = () => {
     const { item } = useParams();
@@ -50,7 +51,7 @@ const ResultPage = () => {
                 <ul>
                     {
                         results.map((el) => {
-                            return <li className={Styles.ResultListItem} key={el["title"]}>
+                            return <li className={Styles.ResultListItem} key={v4()}>
                                 <div>
                                     <div>
                                         <div className={Styles.ResultTitleContainer}>
@@ -101,7 +102,7 @@ const ResultPage = () => {
                 <ul>
                     {
                         related.map(el => {
-                            return <li key={el} onClick={() => reSearch(el)}>
+                            return <li key={v4()} onClick={() => reSearch(el)}>
                                 <div className={Styles.ResultRelatedLink}>
                                     {el}
                                 </div>
