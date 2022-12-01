@@ -97,7 +97,7 @@ const ResultPage = () => {
             </div>
             <div className={Styles.ResultRelated}>
                 <div>
-                    related stuff
+                    related topics
                 </div>
                 <ul>
                     {

@@ -2,13 +2,15 @@ import { useContext } from "react";
 import LearningModeContext, { modes } from "../Contexts";
 import styles from "../css/navbar.module.css";
 import Search from "./Search";
+import { useNavigate } from "react-router-dom";
 const Navbar = () => {
+    const navigate = useNavigate();
     const { mode, setMode, modes } = useContext(LearningModeContext);
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className={styles.navContent}>
                 <div className={styles.leftContent}>
-                    <div className="navbar-brand">Python-Help</div>
+                    <div className="navbar-brand" onClick={()=>navigate(`/`)}>Python-Help</div>
                 </div>
                 <Search />
 
@@ -50,7 +52,6 @@ const Navbar = () => {
                             </div>
                         </li>
                     </ul>
-                    <button className="btn btn-primary">Help</button>
                 </div>
             </div>
 

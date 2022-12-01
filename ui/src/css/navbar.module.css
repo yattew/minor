@@ -12,6 +12,7 @@
 .leftContent{
     display: flex;
     justify-content: flex-start;
+    cursor: pointer;
 }
 .rightContent{
     display: flex;
