@@ -86,6 +86,11 @@ def findSimilar(query,format,listOfDocs = path()):
                             tok = ' '.join(tokenizeAndStem(k))
                             dic[tok]=[k,data[j]['reading'][k],i]
                             maxi.append([sim(tok,' '.join(tokenizeAndStem(query)),model1),data[j]['reading'][k],k,j,i])
+                    elif format == 'practice':
+                        for k in data[j]['practice'].keys():
+                            tok = ' '.join(tokenizeAndStem(k))
+                            dic[tok]=[k,data[j]['practice'][k],i]
+                            maxi.append([sim(tok,' '.join(tokenizeAndStem(query)),model1),data[j]['practice'][k],k,j,i])
                     else:
                         pass
     return dic,maxi
