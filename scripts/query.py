@@ -8,7 +8,24 @@ import pickle
 from cosines import cacCosine
 import numpy as np
 from tree import *
+from spellcheck import SpellCheck
+
 #print(model1.wv)
+def correct(query):
+    spell_check = SpellCheck('../scripts/words.txt')
+    qlist = query.split()
+    for i in range(len(qlist)):
+        spell_check.check(qlist[i])
+        qlist[i]=spell_check.correct()
+    return " ".join(qlist)
+
+def replace(query):
+    qlist = query.split()
+    for i in range(len(qlist)):
+        if qlist[i] in replace_map:
+            qlist[i]=replace_map[qlist[i]]
+    return " ".join(qlist)
+    
 def sim(q1,q2,model1):
     a1 = q1.split()
     v1 = np.array([0.0]*100)

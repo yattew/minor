@@ -4,7 +4,7 @@ from flask_cors import CORS, cross_origin
 from tree import *
 from utils import *
 import sys
-from query import answers,topSuggest
+from query import answers,topSuggest,correct
 
 app = Flask(__name__)
 config = get_config()
@@ -23,12 +23,13 @@ def query(query):
 @app.route("/result/<query>/<mode>")
 @cross_origin()
 def result(query, mode):
+    query = correct(query)
     resu,maxi = answers(query,mode)
-    #top5=topSuggest(maxi[:5])
+    top5=topSuggest(maxi[:5])
     return {
         "urls":resu,
-        "related":["tuple", "dictionary", "string"],
-        #"related":top5,
+        #"related":["tuple", "dictionary", "string"],
+        "related":top5,
     }
 
 @app.route("/doc/<item>")
