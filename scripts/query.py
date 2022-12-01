@@ -20,6 +20,9 @@ def correct(query):
     return " ".join(qlist)
 
 def replace(query):
+    replace_map = {
+        "dict" : "dictionary"
+    }
     qlist = query.split()
     for i in range(len(qlist)):
         if qlist[i] in replace_map:

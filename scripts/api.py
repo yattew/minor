@@ -4,7 +4,7 @@ from flask_cors import CORS, cross_origin
 from tree import *
 from utils import *
 import sys
-from query import answers,topSuggest,correct
+from query import answers,topSuggest,correct,replace
 
 app = Flask(__name__)
 config = get_config()
@@ -24,6 +24,7 @@ def query(query):
 @cross_origin()
 def result(query, mode):
     query = correct(query)
+    query = replace(query)
     resu,maxi = answers(query,mode)
     top5=topSuggest(maxi[:5])
     return {
