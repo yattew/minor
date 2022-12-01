@@ -24,7 +24,7 @@
             "Program to find the product of the given number of consecutive elements": "https://www.geeksforgeeks.org/python-program-to-find-product-of-given-number-of-consecutive-elements/"
         },
         "practice": {
-            "https://www.geeksforgeeks.org/sum-first-n-even-numbers/": "https://www.geeksforgeeks.org/sum-first-n-even-numbers/"
+            "Sum of first n even numbers": "https://www.geeksforgeeks.org/sum-first-n-even-numbers/"
         }
     },
     "advanced": {
@@ -37,7 +37,7 @@
             "Python Program to find the sum of a Series 1/1! + 2/2! + 3/3! + 4/4! +…….+ n/n!": "https://www.tutorialspoint.com/python-program-to-find-the-sum-of-a-series-1-1-plus-2-2-plus-3-3-plus-4-4-plus-plus-n-n"
         },
         "practice": {
-            "https://www.scaler.com/topics/armstrong-number-in-python/": "https://www.scaler.com/topics/armstrong-number-in-python/"
+            "Python Program to Check Armstrong Number": "https://www.scaler.com/topics/armstrong-number-in-python/"
         }
     }
 }

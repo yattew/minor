@@ -15,9 +15,9 @@
             "Python program to calculate the sum of all the odd numbers within the given range":"https://www.tutorialgateway.org/python-program-to-calculate-sum-of-odd-numbers/"
         },
         "practice": {
-            "https://gknxt.com/python-loops-interview-questions/python-interview-questions-on-loops/": "https://gknxt.com/python-loops-interview-questions/python-interview-questions-on-loops/",
-            "https://gopract.com/Pages/IT/Python-For-loop-Question-Answers.aspx": "https://gopract.com/Pages/IT/Python-For-loop-Question-Answers.aspx",
-            "https://data-flair.training/blogs/top-python-interview-questions-answer/": "https://data-flair.training/blogs/top-python-interview-questions-answer/"
+            "Python loops interview questions": "https://gknxt.com/python-loops-interview-questions/python-interview-questions-on-loops/",
+            "Python For Loop: Question and Answers": "https://gopract.com/Pages/IT/Python-For-loop-Question-Answers.aspx",
+            "150+ Python Interview Questions and Answers for Freshers [Latest]": "https://data-flair.training/blogs/top-python-interview-questions-answer/"
         }
     },
     "intermediate": {
@@ -36,9 +36,9 @@
             "Python program to display all numbers within a range except the prime numbers":"https://www.javatpoint.com/pyhton-print-all-prime-number-in-an-interval"
         },
         "practice": {
-            "https://www.naukri.com/learning/articles/for-loop-in-python-examples/#17": "https://www.naukri.com/learning/articles/for-loop-in-python-examples/#17",
-            "https://data-flair.training/blogs/top-python-interview-questions-answer/": "https://data-flair.training/blogs/top-python-interview-questions-answer/",
-            "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions"
+            "For Loop in Python (Practice Problem) - Python Tutorial - Naukri Learning": "https://www.naukri.com/learning/articles/for-loop-in-python-examples/#17",
+            "150+ Python Interview Questions and Answers for Freshers [Latest]": "https://data-flair.training/blogs/top-python-interview-questions-answer/",
+            "Top 150 Python Interview Questions and Answers for 2023": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions"
         }
     },
     "advanced": {
@@ -55,8 +55,8 @@
             "Python program to convert the month name to a number of days": "https://www.w3resource.com/python-exercises/python-conditional-exercise-33.php"
         },
         "practice": {
-            "https://intellipaat.com/blog/interview-question/python-interview-questions/": "https://intellipaat.com/blog/interview-question/python-interview-questions/",
-            "https://www.edureka.co/blog/interview-questions/python-interview-questions/": "https://www.edureka.co/blog/interview-questions/python-interview-questions/"
+            "Top 100 Python Interview Questions and Answers in 2022": "https://intellipaat.com/blog/interview-question/python-interview-questions/",
+            "Top 100+ Python Interview Questions You Must Prepare In 2023": "https://www.edureka.co/blog/interview-questions/python-interview-questions/"
         }
     }
 }
