@@ -21,6 +21,7 @@ for i in dir_list:
             for j in data1:
                 vocabulary.extend(data1[j]["reading"].keys())
                 vocabulary.extend(data1[j]["videos"].keys())
+                #vocabulary.extend(data1[j]["practice"].keys())
             vocab += ' '.join(vocabulary) + ' '
             # print(vocab)
             # print(BASE_DIR/("reference/dataset_"+i[:-4]+'txt'))
