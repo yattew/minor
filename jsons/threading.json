@@ -1,0 +1,59 @@
+{
+    "beginner": {
+        "videos": {
+            "Python Tutorial for Beginners | MultiThreading": "https://www.youtube.com/watch?v=GqHLztqy0PU",
+            "Python Threading Tutorial: Run Code Concurrently Using the Threading Module": "https://www.youtube.com/watch?v=IEEhzQoKtQU",
+            "Thread and Multithreading in Python": "https://www.youtube.com/watch?v=pZq3trxavlk",
+            "Advance Python Series-Asynchronous Execution(Parallel Execution) With Thread Using Python": "https://www.youtube.com/watch?v=xWG9UC2NlpA"
+        },
+        "reading": {
+            "Python - Multithreaded Programming": "https://www.tutorialspoint.com/python/python_multithreading.htm#:~:text=The%20threading%20module%20provided%20with,force%20threads%20to%20run%20synchronously",
+            "Thread-based parallelism — Python 3.10.7 documentation": "https://docs.python.org/3/library/threading.html",
+            "An Intro to Threading in Python ": "https://realpython.com/intro-to-python-threading/"
+        },
+        "practice": {
+            "Top 10 Multithreading Interview Questions And Answer {Updated for2022}": "https: //www.educba.com/multithreading-interview-questions/",
+            "Multithreading in Python | Set 1 - GeeksforGeeks": "https://www.geeksforgeeks.org/multithreading-python-set-1/"
+        }
+    },
+    "intermediate": {
+        "videos": {
+            "Threading Tutorial #2 - Implementing Threading in Python 3 (Examples)": "https://www.youtube.com/watch?v=cdPZ1pJACMI",
+            "Threading in Python: What Is a Thread?": "https://www.youtube.com/watch?v=gZSw8GGUP-I",
+            "Python Threading | MultiThreading In Python | Python MultiThreadin...": "https://www.youtube.com/watch?v=W90hCBN_Qvg",
+            "Advanced Python || Python Multithreading Introduction || by Durga O": "https://www.youtube.com/watch?v=ThIFZIhvzbY"
+        },
+        "reading": {
+            "Multithreading in Python | Set 1 - GeeksforGeeks": "https://www.geeksforgeeks.org/multithreading-python-set-1/",
+            " An Introduction to Python Threading": "https://www.simplilearn.com/tutorials/python-tutorial/python-threading",
+            "Python Threading: The Complete Guide": "https://superfastpython.com/threading-in-python/",
+            "Definitive Guide: Threading in Python Tutorial | DataCamp": "https://superfastpython.com/threading-in-python/"
+        },
+        "practice": {
+            "Top 40 Multithreading Interview Questions and Answers (2022)": "https://career.guru99.com/top-40-multithreading-interview-questions-and-answers/",
+            "Python Threading Interview Questions": "https://superfastpython.com/python-threading-interview-questions/",
+            "Top Multithreading Interview Questions and Answers | MindMajix": "https://mindmajix.com/multithreading-interview-questions",
+            "Python Multithreading Quiz - 20 Questions To Test Your Skills": "https://techbeamers.com/python-multithreading-quiz-to-test-your-skills/"
+        }
+    },
+    "advanced": {
+        "videos": {
+            "Python Thread Tutorial For Beginners 1 - Introduction to multithreadi...": "https://www.youtube.com/watch?v=M04E_Wr6dG4&list=PLS1QulWo1RIb5zGRu6GEej9odbh90hfM6",
+            "Python Multithreading in 3 Minutes": "https://www.youtube.com/watch?v=NGLeprazvkM",
+            "Threading in Python - Advanced Python 16 - Programming Tutorial": "https://www.youtube.com/watch?v=usyg5vbni34",
+            "Threading vs Multiprocessing in Python - Advanced Python 15 - Progr...": "https://www.youtube.com/watch?v=vbtxtvuCFRM"
+        },
+        "reading": {
+            "Python Multithreading and Multiprocessing Tutorial": "https://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python",
+            "Threading in Python: An Introduction - Free Python Tutorial": "https://www.knowledgehut.com/blog/programming/threading-in-python",
+            "Multithreading in Python: The Ultimate Guide (with Coding Examples)": "https://www.dataquest.io/blog/multithreading-in-python/",
+            "Difference Between Multithreading vs Multiprocessing in Python": "https://www.geeksforgeeks.org/difference-between-multithreading-vs-multiprocessing-in-python/"
+        },
+        "practice": {
+            "20 Multithreading in Python Interview Questions and Answers - CLIMB": "https://climbtheladder.com/multithreading-in-python-interview-questions/",
+            "Top 10 Multithreading Interview Questions And Answer {Updated for2022}": "https://www.educba.com/multithreading-interview-questions/",
+            "20 Python Threading Interview Questions and Answers - CLIMB": "https://climbtheladder.com/python-threading-interview-questions/",
+            "How to create multiple threads dynamically in Python - Stack Overflow": "https://stackoverflow.com/questions/55529319/how-to-create-multiple-threads-dynamically-in-python"
+        }
+    }
+}
