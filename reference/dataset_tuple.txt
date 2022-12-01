@@ -1,0 +1,9 @@
+A tuple is a collection which is ordered and unchangeable.
+
+Tuples are written with round brackets.
+
+Tuple items are ordered, unchangeable, and allow duplicate values.
+
+Tuple items are indexed
+
+Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created means they are immutable

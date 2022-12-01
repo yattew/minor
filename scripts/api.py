@@ -26,6 +26,7 @@ def result(query, mode):
     query = correct(query)
     query = replace(query)
     resu,maxi = answers(query,mode)
+
     top5=topSuggest(maxi[:5])
     return {
         "urls":resu,

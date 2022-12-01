@@ -102,6 +102,7 @@ def answers(query,mode):
     return result,sorted(maxi,reverse=True)
 
 def topSuggest(arr):
+    #print(arr)
     try:
         count={}
         for i in arr:
@@ -110,7 +111,7 @@ def topSuggest(arr):
             else:
                 count[i[-1]]=1
         lst=[[count[i],i] for i in count]
-        lst.sort()
+        lst.sort(reverse=True)
         tree,nodes=load_tree('tree.dat')
         related=list(children(tree,nodes,lst[0][1][:-5:]))+list(siblings(tree,nodes,lst[0][1][:-5:]))+list(parents(tree,nodes,lst[0][1][:-5:]))
         return related
