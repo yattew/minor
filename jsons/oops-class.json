@@ -14,9 +14,9 @@
             "Using classes in Python": "https://www.dataquest.io/blog/using-classes-in-python/"
         },
         "practice": {
-            "https://www.w3resource.com/python-exercises/class-exercises/": "https://www.w3resource.com/python-exercises/class-exercises/",
-            "https://pynative.com/python-object-oriented-programming-oop-exercise/": "https://pynative.com/python-object-oriented-programming-oop-exercise/",
-            "https://www.codesdope.com/practice/python-your-class/": "https://www.codesdope.com/practice/python-your-class/"
+            "Python Class - Exercises, Practice, Solution": "https://www.w3resource.com/python-exercises/class-exercises/",
+            "Python Object-Oriented Programming (OOP) Exercise: Classes and Objects Exercises": "https://pynative.com/python-object-oriented-programming-oop-exercise/",
+            "Practice questions on class": "https://www.codesdope.com/practice/python-your-class/"
         }
     },
     "intermediate": {
@@ -32,9 +32,8 @@
             "Classes and Objects in python": "https://intellipaat.com/blog/tutorial/python-tutorial/python-classes-and-objects/"
         },
         "practice": {
-            "https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/": "https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/",
-            "https://www.tutorialsteacher.com/question-answer/python/class/": "https://www.tutorialsteacher.com/question-answer/python/class/",
-            "https://realpython.com/quizzes/pybasics-oop/": "https://realpython.com/quizzes/pybasics-oop/"
+            "Python Class Questions & Answers": "https://www.tutorialsteacher.com/question-answer/python/class/",
+            "Python Basics: Chapter 10 - Object-Oriented Programming Quiz": "https://realpython.com/quizzes/pybasics-oop/"
         }
     },
     "advanced": {
@@ -51,9 +50,9 @@
             "Python Programming for Intermediate programmer": "https://medium.com/javarevisited/8-advanced-python-programming-courses-for-intermediate-programmer-cc3bd47a4d19"
         },
         "practice": {
-            "https://anandology.com/python-practice-book/object_oriented_programming.html": "https://anandology.com/python-practice-book/object_oriented_programming.html",
-            "https://www.sanfoundry.com/python-questions-answers-classes-objects-1/": "https://www.sanfoundry.com/python-questions-answers-classes-objects-1/",
-            "https://www.hackerearth.com/practice/python/object-oriented-programming/classes-and-objects-i/tutorial/": "https://www.hackerearth.com/practice/python/object-oriented-programming/classes-and-objects-i/tutorial/"
+            "Object Oriented Programming": "https://anandology.com/python-practice-book/object_oriented_programming.html",
+            "Python Questions and Answers - Classes and Objects - 1": "https://www.sanfoundry.com/python-questions-answers-classes-objects-1/",
+            "Classes and Objects 1 Python Classes and Methods": "https://www.hackerearth.com/practice/python/object-oriented-programming/classes-and-objects-i/tutorial/"
         }
     }
 }
