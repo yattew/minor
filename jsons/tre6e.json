@@ -5,17 +5,17 @@
             "Basic insertion and search": "https://www.youtube.com/watch?v=yC83Kp2xig8",
             "Construction of BST": "https://www.youtube.com/watch?v=jIq6zyeV3Do",
             "Preorder Traversal of BST": "https://www.youtube.com/watch?v=pUSy6UZCFKw",
-            "Inorder Traversal of BST": "https://www.youtube.com/watch?v=RJhh3Jcc9zw",
+            "Inorder Traversal of binary search tree": "https://www.youtube.com/watch?v=RJhh3Jcc9zw",
             "Postorder Traversal of BST": "https://www.youtube.com/watch?v=cXeNgWhpPQk",
-            "Level Order Traversal of BST": "Level Order Traversal of BST"
+            "Level Order Traversal of binary search tree": "Level Order Traversal of BST"
         },
         "reading": {
-            "Introduction": "https://www.tutorialspoint.com/python_data_structure/python_binary_search_tree.htm",
+            "Introduction to python binary search tree": "https://www.tutorialspoint.com/python_data_structure/python_binary_search_tree.htm",
             "Search and Insertion": "https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/",
-            "Preorder Traversal of BST": "https://www.tutorialspoint.com/binary-tree-preorder-traversal-in-python",
-            "Inorder Traversal of BST": "https://www.askpython.com/python/examples/inorder-tree-traversal",
-            "Postorder Traversal of": "BST-https://www.tutorialspoint.com/binary-tree-postorder-traversal-in-python",
-            "Level order Traversal BST-": "https://www.analyticsvidhya.com/blog/2021/11/traverse-trees-using-level-order-traversal-in-python/"
+            "Preorder Traversal of binary search tree": "https://www.tutorialspoint.com/binary-tree-preorder-traversal-in-python",
+            "Inorder Traversal of binary search tree": "https://www.askpython.com/python/examples/inorder-tree-traversal",
+            "Postorder Traversal of BST": "BST-https://www.tutorialspoint.com/binary-tree-postorder-traversal-in-python",
+            "Level order Traversal binary search tree-": "https://www.analyticsvidhya.com/blog/2021/11/traverse-trees-using-level-order-traversal-in-python/"
         },
         "practice": {
             "": ""
