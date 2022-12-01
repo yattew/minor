@@ -12,9 +12,9 @@
             "TutorialsPoint Python Functions ": "https://www.tutorialspoint.com/python/python_functions.htm"
         },
         "practice": {
-            "https://www.w3resource.com/python-exercises/python-functions-exercises.php": "https://www.w3resource.com/python-exercises/python-functions-exercises.php",
-            "https://pynative.com/python-functions-exercise-with-solutions/": "https://pynative.com/python-functions-exercise-with-solutions/",
-            "https://pynative.com/python-functions-quiz/": "https://pynative.com/python-functions-quiz/"
+            "Python functions - Exercises, Practice, Solution": "https://www.w3resource.com/python-exercises/python-functions-exercises.php",
+            "python functions exercise with solutions": "https://pynative.com/python-functions-exercise-with-solutions/",
+            "Python Functions Quiz": "https://pynative.com/python-functions-quiz/"
         }
     },
     "intermediate": {
@@ -30,9 +30,9 @@
             "PythonDocs Python Function": "https://docs.python.org/3/library/functions.html"
         },
         "practice": {
-            "https://www.tutorialsteacher.com/question-answer/python/function/": "https://www.tutorialsteacher.com/question-answer/python/function/",
-            "https://www.codesdope.com/practice/python-have-your-own-function/": "https://www.codesdope.com/practice/python-have-your-own-function/",
-            "https://www.geeksforgeeks.org/python-functions-question-1/": "https://www.geeksforgeeks.org/python-functions-question-1/"
+            "Python Function Questions & Answers": "https://www.tutorialsteacher.com/question-answer/python/function/",
+            "Practice questions on Have your own function": "https://www.codesdope.com/practice/python-have-your-own-function/",
+            "Python | Functions | Question geeksforgeeks": "https://www.geeksforgeeks.org/python-functions-question-1/"
         }
     },
     "advanced": {
@@ -48,9 +48,9 @@
             "Advanced features of Python Functions": "https://www.skillsoft.com/course/functions-in-python-working-with-advanced-features-of"
         },
         "practice": {
-            "https://pythonlobby.com/python-function-exercises-with-solution/": "https://pythonlobby.com/python-function-exercises-with-solution/",
-            "https://www.sanfoundry.com/python-mcqs-function-1/": "https://www.sanfoundry.com/python-mcqs-function-1/",
-            "https://realpython.com/quizzes/pybasics-functions-loops/": "https://realpython.com/quizzes/pybasics-functions-loops/"
+            "Python Function Exercises with Solution": "https://pythonlobby.com/python-function-exercises-with-solution/",
+            "Python Questions and Answers – Function": "https://www.sanfoundry.com/python-mcqs-function-1/",
+            "Python: Chapter 06 – Functions and Loops Quiz": "https://realpython.com/quizzes/pybasics-functions-loops/"
         }
     }
 }

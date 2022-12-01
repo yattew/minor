@@ -14,9 +14,9 @@
             "Subarray with given sum": "https://www.javatpoint.com/subarray-with-given-sum"
         },
         "practice": {
-            "https://leetcode.com/problems/subarray-sum-equals-k/": "https://leetcode.com/problems/subarray-sum-equals-k/",
-            "https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1": "https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1",
-            "https://medium.com/javarevisited/20-array-coding-problems-and-questions-from-programming-interviews-869b475b9121": "https://medium.com/javarevisited/20-array-coding-problems-and-questions-from-programming-interviews-869b475b9121"
+            "Subarray Sum Equals K": "https://leetcode.com/problems/subarray-sum-equals-k/",
+            "Find minimum and maximum element in an array": "https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1",
+            "Array Coding Problems and Questions from Programming Interviews": "https://medium.com/javarevisited/20-array-coding-problems-and-questions-from-programming-interviews-869b475b9121"
         }
     },
     "intermediate": {
@@ -33,9 +33,9 @@
             "Find duplicates in an array": "https://www.javatpoint.com/python-program-to-print-the-duplicate-elements-of-an-array"
         },
         "practice": {
-            "https://www.interviewbit.com/array-interview-questions/": "https://www.interviewbit.com/array-interview-questions/",
-            "https://www.w3resource.com/python-exercises/array/": "https://www.w3resource.com/python-exercises/array/",
-            "https://www.techiedelight.com/huge-collection-of-array-interview-questions/": "https://www.techiedelight.com/huge-collection-of-array-interview-questions/"
+            "Array Interview Questions ": "https://www.interviewbit.com/array-interview-questions/",
+            "Python: Array Exercises, Practice, Solution": "https://www.w3resource.com/python-exercises/array/",
+            "Array – Interview Questions and Practice Problems": "https://www.techiedelight.com/huge-collection-of-array-interview-questions/"
         }
     },
     "advanced": {
@@ -52,9 +52,9 @@
             "Pair with the given sum in a sorted array": "https://www.codingninjas.com/codestudio/problem-details/find-pair-sum-in-rotated-and-sorted-array_985350"
         },
         "practice": {
-            "https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/": "https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/",
-            "https://javarevisited.blogspot.com/2015/06/top-20-array-interview-questions-and-answers.html": "https://javarevisited.blogspot.com/2015/06/top-20-array-interview-questions-and-answers.html",
-            "https://igotanoffer.com/blogs/tech/array-interview-questions#hard": "https://igotanoffer.com/blogs/tech/array-interview-questions#hard"
+            "Top 50 Array Coding Problems for Interviews": "https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/",
+            "Top 30 Array Interview Questions and Answers for Programmers ": "https://javarevisited.blogspot.com/2015/06/top-20-array-interview-questions-and-answers.html",
+            "array questions with solutions (easy, medium, hard)": "https://igotanoffer.com/blogs/tech/array-interview-questions#hard"
         }
     }
 }

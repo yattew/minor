@@ -16,10 +16,10 @@
             "Lambda and filter in Python Examples": "https://www.geeksforgeeks.org/lambda-filter-python-examples/"
         },
         "practice": {
-            "https://www.w3resource.com/python-exercises/lambda/index.php": "https://www.w3resource.com/python-exercises/lambda/index.php",
-            "https://holypython.com/intermediate-python-exercises/exercise-11-python-lambda/": "https://holypython.com/intermediate-python-exercises/exercise-11-python-lambda/",
-            "https://realpython.com/quizzes/python-lambda/": "https://realpython.com/quizzes/python-lambda/",
-            "https://www.geeksforgeeks.org/python-lambda/": "https://www.geeksforgeeks.org/python-lambda/"
+            "Python Lambda - Exercises, Practice, Solution": "https://www.w3resource.com/python-exercises/lambda/index.php",
+            "intermediate python exercises exercise 11 python lambda/": "https://holypython.com/intermediate-python-exercises/exercise-11-python-lambda/",
+            "Python Lambda Functions Quiz": "https://realpython.com/quizzes/python-lambda/",
+            "Python lambda questions": "https://www.geeksforgeeks.org/python-lambda/"
         }
     },
     "intermediate": {
@@ -39,9 +39,9 @@
             "Tutorial: Lambda Functions in Python": "https://www.dataquest.io/blog/tutorial-lambda-functions-in-python/"
         },
         "practice": {
-            "https://inst.eecs.berkeley.edu/~cs61a/su15/practice/lambdas.html": "https://inst.eecs.berkeley.edu/~cs61a/su15/practice/lambdas.html",
-            "https://www.guru99.com/python-lambda-function.html": "https://www.guru99.com/python-lambda-function.html",
-            "https://intellipaat.com/blog/tutorial/python-tutorial/python-lambda-function/": "https://intellipaat.com/blog/tutorial/python-tutorial/python-lambda-function/"
+            "Practice problems: Lambda expressions": "https://inst.eecs.berkeley.edu/~cs61a/su15/practice/lambdas.html",
+            "Python Lambda Functions with EXAMPLES": "https://www.guru99.com/python-lambda-function.html",
+            "What is a Lambda Function in Python/": "https://intellipaat.com/blog/tutorial/python-tutorial/python-lambda-function/"
         }
     },
     "advanced": {
@@ -62,9 +62,9 @@
             "Advanced Functional Programming in Python: lambda": "https://julien.danjou.info/python-functional-programming-lambda/"
         },
         "practice": {
-            "https://climbtheladder.com/aws-lambda-python-interview-questions/": "https://climbtheladder.com/aws-lambda-python-interview-questions/",
-            "https://mindmajix.com/aws-lambda-interview-questions": "https://mindmajix.com/aws-lambda-interview-questions",
-            "https://flexiple.com/aws-lambda/interview-questions/": "https://flexiple.com/aws-lambda/interview-questions/"
+            "aws-lambda-python-interview-questions": "https://climbtheladder.com/aws-lambda-python-interview-questions/",
+            "AWS Lambda Interview Questions": "https://mindmajix.com/aws-lambda-interview-questions",
+            "16 Essential AWS Lambda Interview Questions": "https://flexiple.com/aws-lambda/interview-questions/"
         }
     }
 }

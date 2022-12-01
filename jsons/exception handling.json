@@ -14,10 +14,10 @@
             " finally keyword in Python - GeeksforGeeks": " finally keyword in Python - GeeksforGeeks"
         },
         "practice": {
-            "https://www.360digitalgyan.com/python/interview-questions/exception-handling-in-python": "https://www.360digitalgyan.com/python/interview-questions/exception-handling-in-python",
-            "https://www.upgrad.com/blog/exception-handling-interview-questions-answers/": "https://www.upgrad.com/blog/exception-handling-interview-questions-answers/",
-            "https://climbtheladder.com/exception-handling-interview-questions/": "https://climbtheladder.com/exception-handling-interview-questions/",
-            "https://mindmajix.com/python/exception-handling": "https://mindmajix.com/python/exception-handling"
+            "Exception Handling in Python questions": "https://www.360digitalgyan.com/python/interview-questions/exception-handling-in-python",
+            "Top 30 Exception Handling Interview Questions and Answers": "https://www.upgrad.com/blog/exception-handling-interview-questions-answers/",
+            "20 Exception Handling Questions and answers for Interview": "https://climbtheladder.com/exception-handling-interview-questions/",
+            "Article on Python Exception Handling ": "https://mindmajix.com/python/exception-handling"
         }
     },
     "intermediate": {
@@ -37,9 +37,8 @@
             "Exception Handling in Python": "https://www.tutorialsteacher.com/python/exception-handling-in-python"
         },
         "practice": {
-            "https://www.sanfoundry.com/python-questions-answers-exception-handling/": "https://www.sanfoundry.com/python-questions-answers-exception-handling/",
-            "https://www.360digitalgyan.com/python/quiz/exception-handling-in-python": "https://www.360digitalgyan.com/python/quiz/exception-handling-in-python",
-            "https://dev.to/aatmaj/learning-python-basic-course-day-13-summary-of-the-week-and-stack-implementation-1b56": "https://dev.to/aatmaj/learning-python-basic-course-day-13-summary-of-the-week-and-stack-implementation-1b56"
+            "Python Questions and Answers - Exception Handling - 1": "https://www.sanfoundry.com/python-questions-answers-exception-handling/",
+            "Learning Python- Basic course: Day 13, Summary of the week and Stack implementation ": "https://dev.to/aatmaj/learning-python-basic-course-day-13-summary-of-the-week-and-stack-implementation-1b56"
         }
     },
     "advanced": {
@@ -60,11 +59,11 @@
             " 30. Errors and Exception Handling | Python Tutorial": "https://python-course.eu/python-tutorial/errors-and-exception-handling.php"
         },
         "practice": {
-            "https://holypython.com/advanced-python-lessons/lesson-3-try-except/": "https://holypython.com/advanced-python-lessons/lesson-3-try-except/",
-            "https://www.geeksforgeeks.org/output-of-python-programs-set-10-exception-handling/": "https://www.geeksforgeeks.org/output-of-python-programs-set-10-exception-handling/",
-            "http://javainsimpleway.com/exception-basics-and-tricky-questions/": "http://javainsimpleway.com/exception-basics-and-tricky-questions/",
-            "https://www.softwaretestinghelp.com/exception-handling-in-python/": "https://www.softwaretestinghelp.com/exception-handling-in-python/",
-            "https://www.tutorialsteacher.com/question-answer/python/exception/": "https://www.tutorialsteacher.com/question-answer/python/exception/"
+            "Python Try / Except Statements": "https://holypython.com/advanced-python-lessons/lesson-3-try-except/",
+            "Output of Python programs | Set 10 (Exception Handling)": "https://www.geeksforgeeks.org/output-of-python-programs-set-10-exception-handling/",
+            "exception-basics-and-tricky-questions": "http://javainsimpleway.com/exception-basics-and-tricky-questions/",
+            "Python Try Except - Python Handling Exception With Examples": "https://www.softwaretestinghelp.com/exception-handling-in-python/",
+            "Python Exceptions Questions & Answers Q'n'A": "https://www.tutorialsteacher.com/question-answer/python/exception/"
         }
     }
 }

@@ -17,9 +17,9 @@
             "Iterators and Generators": "https://www.hackerearth.com/practice/python/iterators-and-generators/iterators-and-generators-1/tutorial/"
         },
         "practice": {
-            "https://www.goskills.com/Development/Resources/Python-interview-questions-answers": "https://www.goskills.com/Development/Resources/Python-interview-questions-answers",
-            "https://www.bogotobogo.com/python/python_interview_questions.php": "https://www.bogotobogo.com/python/python_interview_questions.php",
-            "https://algodaily.com/lessons/python-interview-questions-cheat-sheet/what-are-generators-true-false-is-this-statement-true-or-false-24": "https://algodaily.com/lessons/python-interview-questions-cheat-sheet/what-are-generators-true-false-is-this-statement-true-or-false-24"
+            "20 Most Helpful Python Interview Questions and Answers": "https://www.goskills.com/Development/Resources/Python-interview-questions-answers",
+            "Coding Questions Python Iterator": "https://www.bogotobogo.com/python/python_interview_questions.php",
+            "Python Interview Questions Cheat Sheet": "https://algodaily.com/lessons/python-interview-questions-cheat-sheet/what-are-generators-true-false-is-this-statement-true-or-false-24"
         }
     },
     "intermediate": {
@@ -39,10 +39,10 @@
             "What are Python Iterators and Generators?": "https://www.analyticsvidhya.com/blog/2020/05/python-iterators-and-generators/"
         },
         "practice": {
-            "https://data-flair.training/blogs/python-iterator/": "https://data-flair.training/blogs/python-iterator/",
-            "https://www.onlineinterviewquestions.com/what-are-iterators-in-python/": "https://www.onlineinterviewquestions.com/what-are-iterators-in-python/",
-            "https://climbtheladder.com/python-decorators-interview-questions/": "https://climbtheladder.com/python-decorators-interview-questions/",
-            "https://algodaily.com/lessons/python-interview-questions-cheat-sheet/step-thirty-30": "https://algodaily.com/lessons/python-interview-questions-cheat-sheet/step-thirty-30"
+            "What is Python Iterator (Syntax & Example) - Create your own Iterator": "https://data-flair.training/blogs/python-iterator/",
+            "What are Iterators in Python?": "https://www.onlineinterviewquestions.com/what-are-iterators-in-python/",
+            "20 Python Decorators Interview Questions and Answers": "https://climbtheladder.com/python-decorators-interview-questions/",
+            "What is a decorator in Python?Python offers a unique feature called decorators": "https://algodaily.com/lessons/python-interview-questions-cheat-sheet/step-thirty-30"
         }
     },
     "advanced": {
@@ -62,11 +62,11 @@
             "Iterators and Generators in Python": "https://www.codingninjas.com/codestudio/library/iterators-and-generators-in-python"
         },
         "practice": {
-            "https://mindmajix.com/python-interview-questions": "https://mindmajix.com/python-interview-questions",
-            "https://intellipaat.com/blog/interview-question/python-interview-questions/": "https://intellipaat.com/blog/interview-question/python-interview-questions/",
-            "https://www.sanfoundry.com/python-questions-answers-decorators/": "https://www.sanfoundry.com/python-questions-answers-decorators/",
-            "https://gknxt.com/python/interviewquestions/decorators/": "https://gknxt.com/python/interviewquestions/decorators/",
-            "https://techbeamers.com/python-decorator/": "https://techbeamers.com/python-decorator/"
+            "Python Interview Questions": "https://mindmajix.com/python-interview-questions",
+            "Top 100 Python Interview Questions and Answers in 2022": "https://intellipaat.com/blog/interview-question/python-interview-questions/",
+            "Python Questions and Answers  Decorators": "https://www.sanfoundry.com/python-questions-answers-decorators/",
+            "Python Interview questions - decorators(Python version 3.9 or later version)": "https://gknxt.com/python/interviewquestions/decorators/",
+            "How does Decorator work in Python?": "https://techbeamers.com/python-decorator/"
         }
     }
 }

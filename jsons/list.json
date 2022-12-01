@@ -45,8 +45,8 @@
             " Checking for membership in lists": "https://www.geeksforgeeks.org/python-membership-identity/"
         },
         "practice": {
-            "https://pynative.com/python-list-exercise-with-solutions/": "https://pynative.com/python-list-exercise-with-solutions/",
-            "https://www.geeksforgeeks.org/python-list-exercise/": "https://www.geeksforgeeks.org/python-list-exercise/"
+            "Python List Exercise with Solutions": "https://pynative.com/python-list-exercise-with-solutions/",
+            "Python List Exercise": "https://www.geeksforgeeks.org/python-list-exercise/"
         }
     }
 }
